@@ -1,0 +1,51 @@
+{
+  "dataset": "TaxiBJ-original-HDF5",
+  "citation": "Junbo Zhang, Yu Zheng, Dekang Qi. Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction. AAAI 2017.",
+  "source_repository": "https://github.com/pengzhangzhi/spatial-temporal-transformer",
+  "revision": "b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97",
+  "source_type": "research_repository_mirror_of_original_data",
+  "original_documentation": "https://github.com/amirkhango/DeepST/blob/master/data/TaxiBJ/ReadMe.md",
+  "prbtd_report_generation": "https://github.com/glab2019/PRBTD/blob/main/Code/CreateNoise/add_noise.py",
+  "note": "Original raw TaxiBJ traffic matrices. Not UAV measurements. This mirror contains BJ13/BJ14/BJ15 but not BJ16. Checksums match the published TaxiBJ md5sum manifest.",
+  "files": [
+    {
+      "path": "BJ13_M32x32_T30_InOut.h5",
+      "url": "https://raw.githubusercontent.com/pengzhangzhi/spatial-temporal-transformer/b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97/data/TaxiBJ/BJ13_M32x32_T30_InOut.h5",
+      "size": 80136016,
+      "checksum": "md5:24cec8a5310d4982ffcee43c7aa3ad70"
+    },
+    {
+      "path": "BJ14_M32x32_T30_InOut.h5",
+      "url": "https://raw.githubusercontent.com/pengzhangzhi/spatial-temporal-transformer/b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97/data/TaxiBJ/BJ14_M32x32_T30_InOut.h5",
+      "size": 78365464,
+      "checksum": "md5:bfe5144413e950207cad50999b3910ab"
+    },
+    {
+      "path": "BJ15_M32x32_T30_InOut.h5",
+      "url": "https://raw.githubusercontent.com/pengzhangzhi/spatial-temporal-transformer/b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97/data/TaxiBJ/BJ15_M32x32_T30_InOut.h5",
+      "size": 91742968,
+      "checksum": "md5:70fa80fcb4441f2df18d3dde246dc5fb"
+    },
+    {
+      "path": "BJ_Meteorology.h5",
+      "url": "https://raw.githubusercontent.com/pengzhangzhi/spatial-temporal-transformer/b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97/data/TaxiBJ/BJ_Meteorology.h5",
+      "size": 9563164,
+      "checksum": "md5:cf749c9f9de700d7a9edfffb428aad42"
+    },
+    {
+      "path": "BJ_Holiday.txt",
+      "url": "https://raw.githubusercontent.com/pengzhangzhi/spatial-temporal-transformer/b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97/data/TaxiBJ/BJ_Holiday.txt",
+      "size": 1058
+    },
+    {
+      "path": "ReadMe.md",
+      "url": "https://raw.githubusercontent.com/pengzhangzhi/spatial-temporal-transformer/b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97/data/TaxiBJ/ReadMe.md",
+      "size": 3437
+    },
+    {
+      "path": "md5sum.txt",
+      "url": "https://raw.githubusercontent.com/pengzhangzhi/spatial-temporal-transformer/b17760e01eb08b9b4340e9dd6cbc7cd3caac2b97/data/TaxiBJ/md5sum.txt",
+      "size": 288
+    }
+  ]
+}

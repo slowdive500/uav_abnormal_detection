@@ -1,0 +1,15 @@
+{
+  "dataset": "UAV3D-v1.0-mini",
+  "source": "https://github.com/huiyegit/UAV3D/blob/main/dataset.md",
+  "listing_url": "https://drive.google.com/drive/folders/1GHslnrdmMGRyd1mYCUt_DyUW1tv0PvbZ",
+  "verified_on": "2026-11-12",
+  "verification": "Anonymous folder listing and HTTP206 bytes0-31: ZIP magic PK; archive itself not downloaded",
+  "note": "Upstream has no published checksum in listing. Size is verified; download_receipt.json computes local SHA256 after acquisition. Public Google Drive may impose quota.",
+  "files": [
+    {
+      "path": "v1.0-mini.zip",
+      "url": "https://drive.usercontent.google.com/download?id=1mXkTx4KZCLAadm2LCiFE9vKFhbbWJ7OZ&export=download&confirm=t",
+      "size": 7168537263
+    }
+  ]
+}

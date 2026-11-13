@@ -1,0 +1,30 @@
+{
+  "dataset": "Intel Berkeley Research Lab",
+  "source_url": "https://db.csail.mit.edu/labdata/labdata.html",
+  "download_policy": "Full published sensor log and coordinates; snapshot hashes added after first official download.",
+  "license": {
+    "type": "author_permission",
+    "text": "Permission is granted to use or reproduce this data in any format or venue, with acknowledgement of the contributors."
+  },
+  "files": [
+    {
+      "path": "data.txt.gz",
+      "url": "https://db.csail.mit.edu/labdata/data.txt.gz",
+      "size": 34422518,
+      "checksum": "sha256:d99288c8f406ca6604d359ceaa0d8adfffa79e7095061a1e27dc4399f48c7225"
+    },
+    {
+      "path": "mote_locs.txt",
+      "url": "https://db.csail.mit.edu/labdata/mote_locs.txt",
+      "size": 552,
+      "checksum": "sha256:3865c0263110c24c40e3377690cecaa552e0575cf56cdb9f5f8bd17130b6bf04"
+    },
+    {
+      "path": "labdata.html",
+      "url": "https://db.csail.mit.edu/labdata/labdata.html",
+      "size": 3790,
+      "checksum": "sha256:baa5934fa0dc4a40232997aa73a66bea847d522f0c1e7f38b62e56ba1ff92178"
+    }
+  ],
+  "checksum_provenance": "Computed from official HTTPS downloads; no upstream cryptographic checksum was provided."
+}

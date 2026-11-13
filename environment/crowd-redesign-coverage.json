@@ -1,0 +1,180 @@
+{
+  "dataset": "crowd_temperature",
+  "purpose": "Identity/coverage-based design audit; no trained scores or detection performance used for design selection.",
+  "data_input": "data/raw/crowd_temperature/crowd_temperature.csv",
+  "input_sha256": "73daac8271d932764cd6acf8533c7f1319185ef38a6fc794471a96180eea9460",
+  "original_rows": 5030,
+  "original_sources": 289,
+  "selected_original_rows": 3701,
+  "selected_sources": 164,
+  "reports_after_aggregation": 3106,
+  "observed_time_slots": 189,
+  "recommended": {
+    "time_bin_minutes": 30,
+    "grid_shape": [
+      2,
+      2
+    ],
+    "source_selection_first_slots": 75,
+    "max_sources": null,
+    "split_ratios": [
+      0.4,
+      0.1,
+      0.3,
+      0.2
+    ],
+    "window": {
+      "window_size": 2,
+      "min_sources": 3,
+      "max_gap_seconds": 1800.1
+    },
+    "calibration_separation_seconds": 3600,
+    "calibration_alpha": 0.05,
+    "minimum_required_retained_calibration_units": 40
+  },
+  "source_selection_verification": {
+    "prefix_end_utc": "2014-02-02T12:30:00+00:00",
+    "training_end_utc": "2014-02-02T12:30:00+00:00",
+    "prefix_within_training": true,
+    "all_selected_sources_observed_in_training": true,
+    "future_only_sources_included": 0
+  },
+  "splits": {
+    "train": {
+      "reports": 1243,
+      "time_slots": 75,
+      "task_rounds": 273,
+      "task_rounds_with_three_sources": 168,
+      "eligible_windows": 162,
+      "scoreable_reports": 1042,
+      "time_separated_available_calibration_units": 79,
+      "time_min_utc": "2014-01-31T23:30:00+00:00",
+      "time_max_utc": "2014-02-02T12:30:00+00:00"
+    },
+    "validation": {
+      "reports": 265,
+      "time_slots": 19,
+      "task_rounds": 63,
+      "task_rounds_with_three_sources": 38,
+      "eligible_windows": 30,
+      "scoreable_reports": 186,
+      "time_separated_available_calibration_units": 20,
+      "time_min_utc": "2014-02-02T13:00:00+00:00",
+      "time_max_utc": "2014-02-02T22:00:00+00:00"
+    },
+    "calibration": {
+      "reports": 886,
+      "time_slots": 57,
+      "task_rounds": 189,
+      "task_rounds_with_three_sources": 105,
+      "eligible_windows": 97,
+      "scoreable_reports": 731,
+      "time_separated_available_calibration_units": 51,
+      "time_min_utc": "2014-02-02T22:30:00+00:00",
+      "time_max_utc": "2014-02-04T04:00:00+00:00"
+    },
+    "test": {
+      "reports": 712,
+      "time_slots": 38,
+      "task_rounds": 142,
+      "task_rounds_with_three_sources": 98,
+      "eligible_windows": 93,
+      "scoreable_reports": 630,
+      "time_separated_available_calibration_units": 48,
+      "time_min_utc": "2014-02-04T04:30:00+00:00",
+      "time_max_utc": "2014-02-04T23:00:00+00:00"
+    }
+  },
+  "coverage_comparisons": [
+    {
+      "time_bin_minutes": 10,
+      "grid_shape": [
+        2,
+        2
+      ],
+      "reports": 3371,
+      "calibration_units_before_trim": 61,
+      "test_scoreable_reports": 399,
+      "test_total_reports": 737
+    },
+    {
+      "time_bin_minutes": 15,
+      "grid_shape": [
+        2,
+        2
+      ],
+      "reports": 3286,
+      "calibration_units_before_trim": 67,
+      "test_scoreable_reports": 514,
+      "test_total_reports": 737
+    },
+    {
+      "time_bin_minutes": 20,
+      "grid_shape": [
+        2,
+        2
+      ],
+      "reports": 3212,
+      "calibration_units_before_trim": 63,
+      "test_scoreable_reports": 563,
+      "test_total_reports": 724
+    },
+    {
+      "time_bin_minutes": 30,
+      "grid_shape": [
+        1,
+        1
+      ],
+      "reports": 2950,
+      "calibration_units_before_trim": 24,
+      "test_scoreable_reports": 668,
+      "test_total_reports": 677
+    },
+    {
+      "time_bin_minutes": 30,
+      "grid_shape": [
+        1,
+        2
+      ],
+      "reports": 3023,
+      "calibration_units_before_trim": 41,
+      "test_scoreable_reports": 672,
+      "test_total_reports": 694
+    },
+    {
+      "time_bin_minutes": 30,
+      "grid_shape": [
+        2,
+        2
+      ],
+      "reports": 3106,
+      "calibration_units_before_trim": 51,
+      "test_scoreable_reports": 630,
+      "test_total_reports": 712
+    },
+    {
+      "time_bin_minutes": 60,
+      "grid_shape": [
+        2,
+        2
+      ],
+      "reports": 2927,
+      "calibration_units_before_trim": 38,
+      "test_scoreable_reports": 628,
+      "test_total_reports": 674
+    }
+  ],
+  "calibration_bound": {
+    "units_before_trim": 51,
+    "maximum_label_trim_removals": 2,
+    "minimum_retained_after_trim": 49,
+    "maximum_minimum_p_value": 0.02
+  },
+  "limits": [
+    "No independent reference truth in the published file; injection displacement is assessable, absolute environmental error is not.",
+    "Availability counts require finite conditions and at least three simultaneous sources; the configured two-coordinate conditions are complete.",
+    "One report is sampled per task-round before score availability filtering; same-task units are separated by one hour.",
+    "Separate spatial tasks may remain correlated; time separation is not a proof of exchangeability.",
+    "This audit establishes data and calibration coverage only. Attack feasibility and actual contaminated calibration must be checked by the experiment preflight."
+  ]
+}

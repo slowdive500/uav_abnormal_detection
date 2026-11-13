@@ -1,0 +1,967 @@
+{
+  "source": "/tmp/uav_reports_adaptation",
+  "target": "/home/hhzhang/projects/UAV_abnormality_detection",
+  "backup": "/tmp/uav_reports_backup_20261113_114447",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 117,
+      "sha256": "c38a68c4f3782290dabe67eebb3ce48bc27abeb049454e24ebb3e74ab6365631",
+      "replaced": true
+    },
+    {
+      "path": "README.md",
+      "size": 12769,
+      "sha256": "df1e8717d8368297474f4799d9ea8810003e30c745eab6d33af24c21abf82b76",
+      "replaced": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 2335,
+      "sha256": "7009fcf0845da3427db5f569ec1a94c31a006d0ef43a7c3add2899b5a626626d",
+      "replaced": true
+    },
+    {
+      "path": "configs/datasets/crowd_temperature.yaml",
+      "size": 504,
+      "sha256": "1d1595e44b4283e705d3828fcb423373a5eea8b59522c73f3188934eddcce762",
+      "replaced": false
+    },
+    {
+      "path": "configs/datasets/intel_berkeley.yaml",
+      "size": 687,
+      "sha256": "042d0f4c65c7ff7ab00476238afd518e3009a08f7f3666987e26eb9034abac2d",
+      "replaced": false
+    },
+    {
+      "path": "configs/datasets/taxibj.yaml",
+      "size": 754,
+      "sha256": "3b6908115e07c5b6d4cf28f3fdcd78b468febb169cb1f4e05cb1c1455e0f3d9c",
+      "replaced": false
+    },
+    {
+      "path": "configs/experiments/crowd_temperature.yaml",
+      "size": 1574,
+      "sha256": "6e88eef359e581448a19b80e191a45c8a94beafbf0bd9b3645b70032236025a6",
+      "replaced": false
+    },
+    {
+      "path": "configs/experiments/intel_berkeley.yaml",
+      "size": 1724,
+      "sha256": "5c8b8ccb59ba37d6603552c8a12873c2814729f51ea1a4670385abc34a4caf09",
+      "replaced": false
+    },
+    {
+      "path": "configs/experiments/taxibj.yaml",
+      "size": 1610,
+      "sha256": "09ba5a6cb5db13ffa190d3c3d7d7f475ca13ee08eb85be13b83af13790acd156",
+      "replaced": false
+    },
+    {
+      "path": "data/manifests/crowd_temperature.json",
+      "size": 2772,
+      "sha256": "eed6768271164d53df2939afabda23467ba7ac6f2e6b4c63a0991010266e5ee1",
+      "replaced": false
+    },
+    {
+      "path": "data/manifests/intel_berkeley.json",
+      "size": 1205,
+      "sha256": "252363041df8e9d27291321d4e62464e93b1ca96595707d892ea8a67720f367a",
+      "replaced": false
+    },
+    {
+      "path": "data/manifests/taxibj.json",
+      "size": 2651,
+      "sha256": "273b20c7b711ecc2dfa2ab975a9ca3d39c60fff75f56c4f11c27b385896c186e",
+      "replaced": false
+    },
+    {
+      "path": "data/processed/crowd_temperature.csv",
+      "size": 133931,
+      "sha256": "f8bbc3d8ba473785e9414df7b8183a8d3ab0a34108cf497480c26fb447b1109d",
+      "replaced": false
+    },
+    {
+      "path": "data/processed/crowd_temperature.metadata.json",
+      "size": 3526,
+      "sha256": "1086bea3b34f5751ea018682577a235cd5c7f943a9b5b0eb239956ea8167b6c7",
+      "replaced": false
+    },
+    {
+      "path": "data/processed/intel_berkeley.csv",
+      "size": 4392910,
+      "sha256": "9b778e59a35e750922aa4a27603fad1e092f355bd50ba9924b9f129ea9641132",
+      "replaced": false
+    },
+    {
+      "path": "data/processed/intel_berkeley.metadata.json",
+      "size": 3080,
+      "sha256": "aaf3d6df04779617c3166b50da4e007aed9e28e1962a00a7807e160779fb25f5",
+      "replaced": false
+    },
+    {
+      "path": "data/processed/intel_berkeley.queries.csv",
+      "size": 1234841,
+      "sha256": "42cc7d12ab5b4006522475daf64daa75fa9ef00f5c1a2eca99fd1e939c207361",
+      "replaced": false
+    },
+    {
+      "path": "data/processed/taxibj.csv",
+      "size": 2534583,
+      "sha256": "4354e166597f2757f68d524f6c8690a8fac1d7c307f6ac9a29d0d45234b470f4",
+      "replaced": false
+    },
+    {
+      "path": "data/processed/taxibj.metadata.json",
+      "size": 2322,
+      "sha256": "9abc51f1f4d4262f5abaf5efd12d5e97b71c9081adf253f99b1a9d4a904557dd",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/access_attempts.json",
+      "size": 1367,
+      "sha256": "cb3834985c56021dc44d228d16a8546e935b2c14878d689e0541122330774942",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/archive_availability.json",
+      "size": 419,
+      "sha256": "f8a45c5fa3f5d309005a29dae32373854e392f149108afa6012380611e444784",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/archive_candidates.json",
+      "size": 233,
+      "sha256": "7ef0a75b60cc6755f5f00884381af5a8dc2c8811a2fd5fe8ff764a2e3db5c55e",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/archive_prefix_candidates.json",
+      "size": 731,
+      "sha256": "aa8a51bfa753d0546e1d83631ddcf4e3069949796f94a4b8399ab9d9fbec90d9",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/archive_search.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/crowd_temperature.csv",
+      "size": 415273,
+      "sha256": "73daac8271d932764cd6acf8533c7f1319185ef38a6fc794471a96180eea9460",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/download_receipt.json",
+      "size": 333,
+      "sha256": "deb663e4d9d04dc046131814cfa00a8ae521981dbc5267214c41ec9dd8d91beb",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/source_metadata/dataport_source.html",
+      "size": 69108,
+      "sha256": "c2f8ea6cd731e386dc819a029143728b98752a1ee4430bce1a417ff84b941ec6",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/source_metadata/download_receipt.json",
+      "size": 523,
+      "sha256": "dcb4e9a38856bedcb1dca5fe375269e9089ccf49cdf2a45dd4d29751a6005b65",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/crowd_temperature/source_metadata/queens_source.html",
+      "size": 43132,
+      "sha256": "9a790aa8808e601224597dfaba6fae997e73a8106127d90a91556098e47738bc",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/intel_berkeley/adapter_validation.json",
+      "size": 4482,
+      "sha256": "48a3d4fd72d7035e7f093d61b452baa6bbe1b50885769c47a000bdc3fa2aa7c9",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/intel_berkeley/data.txt.gz",
+      "size": 34422518,
+      "sha256": "d99288c8f406ca6604d359ceaa0d8adfffa79e7095061a1e27dc4399f48c7225",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/intel_berkeley/download_receipt.json",
+      "size": 690,
+      "sha256": "c37e0f30347c4f5be4ba9d9793e020d9b86f6064a8b21f255b1c9ebd51045a41",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/intel_berkeley/labdata.html",
+      "size": 3790,
+      "sha256": "baa5934fa0dc4a40232997aa73a66bea847d522f0c1e7f38b62e56ba1ff92178",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/intel_berkeley/mote_locs.txt",
+      "size": 552,
+      "sha256": "3865c0263110c24c40e3377690cecaa552e0575cf56cdb9f5f8bd17130b6bf04",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/BJ13_M32x32_T30_InOut.h5",
+      "size": 80136016,
+      "sha256": "3b215591e2e6382aca9c98494cacccc7b51755f796d0a085b78d7057ed930c70",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/BJ14_M32x32_T30_InOut.h5",
+      "size": 78365464,
+      "sha256": "30823970950a0184c9e0ca16378926478c7e5154008eb997a683840ba5cf4e48",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/BJ15_M32x32_T30_InOut.h5",
+      "size": 91742968,
+      "sha256": "c763ac230a4241b3287ab68c5dd3a7f730108687f37b8b596ae281e84913a794",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/BJ_Holiday.txt",
+      "size": 1058,
+      "sha256": "8802a253b5215803ad109f4cf27ddcb2518d045997b71836e5c3256ad387396a",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/BJ_Meteorology.h5",
+      "size": 9563164,
+      "sha256": "1e8fda1fa660d07f7b628557792f41fe40e33fa05cafbc203ac7e64000f7370c",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/DATA_AUDIT.json",
+      "size": 2603,
+      "sha256": "9b1e6cceba97aa427796753c944453f3be855ab08071f82d04bb275264e2e346",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/ReadMe.md",
+      "size": 3437,
+      "sha256": "88e1488b52b84d4c6f40915193c6619a522da023123083861debaa158df05405",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/download_receipt.json",
+      "size": 2751,
+      "sha256": "52ae6861b1607ffba04bc238a4b4673d21aafcd3fcdfc3a9b20a389dbd75ce28",
+      "replaced": false
+    },
+    {
+      "path": "data/raw/taxibj/md5sum.txt",
+      "size": 288,
+      "sha256": "a7f6809c245267a67d603f8a1a3b07e99bb4bb0015d0b77fedae79e742a15bd2",
+      "replaced": false
+    },
+    {
+      "path": "docs/REPORT_EXPERIMENTS.md",
+      "size": 6721,
+      "sha256": "7375cb96f2c35ce28206bfe0cb7b465196faddd92863134c4edcdfce3346d614",
+      "replaced": false
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "size": 6145,
+      "sha256": "10fa80bfb98a6bac20bba944b8354be49b4716babe729046585337c113b29a15",
+      "replaced": true
+    },
+    {
+      "path": "docs/crowd_temperature.md",
+      "size": 3749,
+      "sha256": "6c535da25781d8452a518b5e290a73e77d85511d9caf3fec033331fa56a3bbb3",
+      "replaced": false
+    },
+    {
+      "path": "docs/datasets.md",
+      "size": 13684,
+      "sha256": "1ac58834afc4c13438b44f3c47c2b27099e06f2e403a0fa54b2e4dcde478fb4d",
+      "replaced": true
+    },
+    {
+      "path": "docs/intel_berkeley.md",
+      "size": 5817,
+      "sha256": "080919193db37da3e248d3b60b30047fc2afa604287e1b7cdfc636b4daabd2cd",
+      "replaced": false
+    },
+    {
+      "path": "docs/prbtd.md",
+      "size": 7272,
+      "sha256": "9b4975180b143919a5a2e13db7f5b8fb4800c35af50abee74e7ee3afc8e6f3ab",
+      "replaced": true
+    },
+    {
+      "path": "docs/taxibj.md",
+      "size": 7779,
+      "sha256": "b5c2f8e73101a8d6e6cc79f83976985ae9b84bfe842f0929613fdc040f9c431c",
+      "replaced": false
+    },
+    {
+      "path": "environment/pytest-report-validation.txt",
+      "size": 932,
+      "sha256": "980a56db3aec55de2d8b9d228727e0ad2d5e3a4d079263b41d7e50076ff299cf",
+      "replaced": false
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 896,
+      "sha256": "a1ad993ea30908a6749d549e562ab0bd48e2a98ef2ce48946f8cc1eee471ac29",
+      "replaced": true
+    },
+    {
+      "path": "requirements-core.txt",
+      "size": 196,
+      "sha256": "d9131521138cd26661f3b0b4375b1670745093255cf4e0534720befc79c2fb63",
+      "replaced": true
+    },
+    {
+      "path": "runs/crowd_acquisition_status/benchmark_status.json",
+      "size": 513,
+      "sha256": "fbe18fce762ebfcda7eec826ba4e31523392cbe6c498dae0cc99f127a7b59902",
+      "replaced": false
+    },
+    {
+      "path": "runs/data_ready/benchmark_status.json",
+      "size": 405,
+      "sha256": "c7473f9bfca684d286602625a8ab903352dedd9f4252431b41762428aceef58f",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation/benchmark_status.json",
+      "size": 82540,
+      "sha256": "f53cc9f410de3b180a8c5030319ffc3571b8d29aa3550287e8b7b76f64a655ee",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/benchmark_status.json",
+      "size": 37809,
+      "sha256": "2bdaea6586ac1a65a2971e1b79a43dacfc19f6e2bfcfd84c30693b5c48b931af",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/calibration.json",
+      "size": 181,
+      "sha256": "fdf92f860afdfa646d2311b8679e9c2c42806126f8cbf42d42dede4e1e9290b6",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/calibration_scores.csv",
+      "size": 6994,
+      "sha256": "c7dcccc234dc7f7b3279fd656534b5a9713f65856b6091163300de914fa3b4c7",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/checkpoint.pt",
+      "size": 303722,
+      "sha256": "fa0c7a5e63d3167e7f3d187f24ad6427c621c1aad1201fbb082658c1a0644f23",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/config.resolved.yaml",
+      "size": 1512,
+      "sha256": "d949afb8212b16be1c3089accafcbfc37eeb20b5e5f34ff68db5211858b46b53",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/history.json",
+      "size": 210,
+      "sha256": "04364b165e9bb18fb913edb98cfdca477d359d084baf52cd0eb5d1ffd9805319",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/metrics.json",
+      "size": 15608,
+      "sha256": "5bfce5a195cdadd56eb7c0b37ed8734f2e297b7fad29d74d82f07c21239c8268",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/predictions.csv",
+      "size": 23099,
+      "sha256": "c7a9204d7bcb869ebfa6cc9be3ef3e9804f8248d9368bb045f2deac8cb6ca6af",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/reputation.csv",
+      "size": 6383,
+      "sha256": "891d439f2eaed3b6177492e4dc1c35ce4ea013bb07caa1e1659dbdb6376ab9d1",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/runtime.json",
+      "size": 178,
+      "sha256": "9052f8a8634acdf4eccf8979d2036b65bdabf39ca7ad96edb58abf8fd0c36190",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/split_manifest.json",
+      "size": 38207,
+      "sha256": "df9e3a9b29dea97d73b3c27736ecf44e25bbe5fdd239606803d9f272b9e5bb14",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/splits/calibration.csv",
+      "size": 11635,
+      "sha256": "23bcac1acb14795ac47eded90d385b7b6c7994b4c9b3402f2c3bbd07febabef7",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/splits/test.csv",
+      "size": 32430,
+      "sha256": "7331146c5eea2f71580db785bdeaff047fda086a72820ea112bfa1a732e7818c",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/splits/train.csv",
+      "size": 70707,
+      "sha256": "006da81cd54c46ba274d1c22dbd3669f673f1e70d09d10239059947f363b58ec",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/prbtd/42/splits/validation.csv",
+      "size": 33986,
+      "sha256": "abce0bd1c11e7ba459171f21fc6eeed7c4072e60d6bd625dbd5fef564859db3c",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/calibration.json",
+      "size": 180,
+      "sha256": "ebc44071a7f12eaefe0ccba35f1cc569a425d6c8d8ea6ad5533eae07b79006bf",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/calibration_scores.csv",
+      "size": 5944,
+      "sha256": "980cd6d1b78da2019976faddb6adbf9158105ce37ec25f4c79f4ec84f37dbf5c",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/checkpoint.pt",
+      "size": 445603,
+      "sha256": "d5b5b4f472b75fff5d5e49076a90cd204f777282cbd1ae1ad0e6d823cb242952",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/config.resolved.yaml",
+      "size": 1512,
+      "sha256": "703916b519bcefcc3006bf170760c01eb4e76fd0f5d4d1aa1a62ac387afb4599",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/history.json",
+      "size": 211,
+      "sha256": "5ddefc39cac5ce4568f705cb6d729c5d248c14f4bef0d6403d7ac619269eaf86",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/metrics.json",
+      "size": 15664,
+      "sha256": "ad764051759e807db80bb634189a4ff348b11b6d33a7bf43a40a13fdf6f4b553",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/predictions.csv",
+      "size": 19472,
+      "sha256": "c35bb2d538576b18474b2905f62320dab579e03e7d6250974ceb1764b07d7437",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/runtime.json",
+      "size": 178,
+      "sha256": "517de086ea416f6cabeb570852e9d506482be40d15614d479b21ce56c12aad61",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/split_manifest.json",
+      "size": 38207,
+      "sha256": "df9e3a9b29dea97d73b3c27736ecf44e25bbe5fdd239606803d9f272b9e5bb14",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/splits/calibration.csv",
+      "size": 11635,
+      "sha256": "23bcac1acb14795ac47eded90d385b7b6c7994b4c9b3402f2c3bbd07febabef7",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/splits/test.csv",
+      "size": 32430,
+      "sha256": "7331146c5eea2f71580db785bdeaff047fda086a72820ea112bfa1a732e7818c",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/splits/train.csv",
+      "size": 70707,
+      "sha256": "006da81cd54c46ba274d1c22dbd3669f673f1e70d09d10239059947f363b58ec",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_crowd/crowd_temperature/tsadc/42/splits/validation.csv",
+      "size": 33986,
+      "sha256": "abce0bd1c11e7ba459171f21fc6eeed7c4072e60d6bd625dbd5fef564859db3c",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/benchmark_status.json",
+      "size": 21530,
+      "sha256": "eecd325d2ce835270bd11f9655c5625e6ab8e7a2828b7f306752cbfbf98fdb89",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/calibration.json",
+      "size": 182,
+      "sha256": "d416b13d43018386415300824e19abe99f3d86ca32572948864ec5b24338c768",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/calibration_scores.csv",
+      "size": 758929,
+      "sha256": "5fe2cf9f0574c601bdeee05c02810cc9acba66ee0f6a1592fba801c76bd41dc3",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/checkpoint.pt",
+      "size": 673962,
+      "sha256": "a180ca4db214a6cf7e5f46c4435fc6c78ab18bd261556e6e4720ce27607c4c86",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/config.resolved.yaml",
+      "size": 1662,
+      "sha256": "dc18fa31ebd38148f2ffa678420099c602cf980becc73fe8fde4bc5c926bff32",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/history.json",
+      "size": 215,
+      "sha256": "17ee9624b85bd29b7207010638df07fe7815b353f4dbc3b6e4961b19166c2d01",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/metrics.json",
+      "size": 8700,
+      "sha256": "88dbe3acf0d2ec14b8e5210c00a19f5a99592263edfd40cdf30e7f90929e30e2",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/predictions.csv",
+      "size": 1534863,
+      "sha256": "e340eb4d554174cc05fbc625ff9dc22c1c0960dc5e965c8bdf921a113f10466e",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/query_estimates.csv",
+      "size": 330138,
+      "sha256": "dd2227ea9f2d7c2a9cc7f12230ad93ea2f3f0d8a355824f09b6240f9f602cb83",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/reputation.csv",
+      "size": 573016,
+      "sha256": "b2c35729b0393a8bc37cffcba3df6db5ccd39268549043e01f47c4040eaa3e26",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/runtime.json",
+      "size": 177,
+      "sha256": "00a7c8c763df0ad8502591f65dbfa545809c1495f66caed43c6101c3f567f43f",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/split_manifest.json",
+      "size": 41277,
+      "sha256": "b7c2e7356a34a88ab0e883acbded3550bfadc7f68aadb1e51c951b7ff34a9255",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/splits/calibration.csv",
+      "size": 596281,
+      "sha256": "f557af71228ff63cd759565c9a5edb7bd457c4d2f6b37c9c70f73b69fba2319d",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/splits/test.csv",
+      "size": 1198972,
+      "sha256": "74ac6648e7583ef132c7efb8f22c3687987fd6c61b65b5129c537466b5eba833",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/splits/train.csv",
+      "size": 2375314,
+      "sha256": "e43a2680f4adc8c76042951ba8f0fa396f69d023b32b09d80f1a2bffaf9ec464",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/prbtd/42/splits/validation.csv",
+      "size": 596547,
+      "sha256": "5ebbcae6fa93acc14cb51d4505a5d22e651036e4ab4de41ffa0f4a09e6f8a8e9",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/calibration.json",
+      "size": 183,
+      "sha256": "2ab0260944ebb9e245e2e085233725d292885ee7da90ada6c4a88d219e5339c9",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/calibration_scores.csv",
+      "size": 616601,
+      "sha256": "027ae4bd29f338328eead0f9b48bdc4d69e3310b6f1ec27b18ec2403be25e080",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/checkpoint.pt",
+      "size": 399203,
+      "sha256": "ce50647d005a6d06d0c8ca8d5845b5f09e4a1ec8f0cbb9ab469ef2338a70f6f6",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/config.resolved.yaml",
+      "size": 1662,
+      "sha256": "c72df5be4151bb830def2a284194a137e3f83077059095a3e5aec24347b3c00e",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/history.json",
+      "size": 211,
+      "sha256": "c3ce1082fb6d9d2e4768c83a39335e1aeaf7ea9d9672d486cc07b3ad178df8f5",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/metrics.json",
+      "size": 8844,
+      "sha256": "7bd932b7cd323e6d6b5dae01f3936b3ff8664bbad2c61ee5cf927b275cd4a5e6",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/predictions.csv",
+      "size": 1247836,
+      "sha256": "89cb30bc48f40f4a36643a5b9978294e448099e45766c825ab48b1516d99720c",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/query_estimates.csv",
+      "size": 330207,
+      "sha256": "01b26592595b8c0befcdfa8abbda93e03be1d3e166f378c738342c30f3afb3d9",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/runtime.json",
+      "size": 177,
+      "sha256": "650b6de1e19a1bc5f2d2b626cfe9574c1085f52be09423fdaf4e0240da447e4b",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/split_manifest.json",
+      "size": 41277,
+      "sha256": "b7c2e7356a34a88ab0e883acbded3550bfadc7f68aadb1e51c951b7ff34a9255",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/splits/calibration.csv",
+      "size": 596281,
+      "sha256": "f557af71228ff63cd759565c9a5edb7bd457c4d2f6b37c9c70f73b69fba2319d",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/splits/test.csv",
+      "size": 1198972,
+      "sha256": "74ac6648e7583ef132c7efb8f22c3687987fd6c61b65b5129c537466b5eba833",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/splits/train.csv",
+      "size": 2375314,
+      "sha256": "e43a2680f4adc8c76042951ba8f0fa396f69d023b32b09d80f1a2bffaf9ec464",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_intel/intel_berkeley/tsadc/42/splits/validation.csv",
+      "size": 596547,
+      "sha256": "5ebbcae6fa93acc14cb51d4505a5d22e651036e4ab4de41ffa0f4a09e6f8a8e9",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/benchmark_status.json",
+      "size": 22054,
+      "sha256": "3ebc2fdbc7ee4c50c9165b4a0c86e156cd7b59e1929af8c10bc6ca9ba3c90b06",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/calibration.json",
+      "size": 182,
+      "sha256": "089617796e89b763413d3a7c7a76e1e8110b8f04b01349cfabacc40c8e97d405",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/calibration_scores.csv",
+      "size": 392538,
+      "sha256": "b0272460574e08e3bf67f2fceae570a67a901307ff54a9cbe3109665f7b1f6b0",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/checkpoint.pt",
+      "size": 505962,
+      "sha256": "c45107e68282b15ff4737ffb5cadd500b24675c23a6de97506667fc82422f5a4",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/config.resolved.yaml",
+      "size": 1548,
+      "sha256": "e1d5d925bb22c1f8139882642b49bb923d94dfd395d02f5938c7af55a53f1efa",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/environment_estimates.csv",
+      "size": 35568,
+      "sha256": "5d209a8d28f0043ae86d88261d556870b330af03b0c44a3be32331fe39bd3452",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/history.json",
+      "size": 211,
+      "sha256": "bb7164e91e6a375c30e68965f804220d2ed0a8f45b2fe915d74c4e57e7fc4e95",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/metrics.json",
+      "size": 9083,
+      "sha256": "db3cd3573c166dd3357bbdf70fb527c35084641f1bc98071ad2c505990732294",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/predictions.csv",
+      "size": 842176,
+      "sha256": "1c871b846a8255f7fdca80b7740c9c66c62228cebada39994b9340821003f432",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/reputation.csv",
+      "size": 293022,
+      "sha256": "fa518d2af1057d9190f817dac5f852052ade5e5b8d06987f5c63f6acecfa8f7c",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/runtime.json",
+      "size": 177,
+      "sha256": "8605d30f5c787109de6aace3a6510a5c9386e71f60c7aa369a195185fb8fbaed",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/split_manifest.json",
+      "size": 185913,
+      "sha256": "be4758e83816cf710a777704c444e39611816cd09c0aae4b981f8e1c8300d044",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/splits/calibration.csv",
+      "size": 353993,
+      "sha256": "9cabef2e8eb4607bb0aa363bdae22c227357b0ffa188e27203df54b24d07bc32",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/splits/test.csv",
+      "size": 699359,
+      "sha256": "9dd57c3857576239f3a7bf73d28b9dd7a91423f7f2c2255e2aae9f1495e57835",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/splits/train.csv",
+      "size": 1406994,
+      "sha256": "e25778adc427b67a9286b8039c0c04431d2d097bb0278e3c6d00ac445cd443e3",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/prbtd/42/splits/validation.csv",
+      "size": 353713,
+      "sha256": "3718bce6d8f1830bb163ab675cc422ce0af5633837aa2bbb69ea3524d6e70cdd",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/calibration.json",
+      "size": 183,
+      "sha256": "a1966bbf7e1551a3febf29cf29790f1ffe2e698ffabb151c16ad1f4aeca61831",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/calibration_scores.csv",
+      "size": 325434,
+      "sha256": "e16fbcb2020045402fbaf489acd4856292888239ca182ecf19af561f0da6022a",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/checkpoint.pt",
+      "size": 399011,
+      "sha256": "004b554bf6f79b525570621f0ecc9e510b1788d618d3694072a4fc523e8b990e",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/config.resolved.yaml",
+      "size": 1548,
+      "sha256": "765b816393fd3d11e6a86aa1501a57a5dfbc70b99fa757531cb794762dad5663",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/environment_estimates.csv",
+      "size": 35707,
+      "sha256": "3f152d86a478479203da76e0b8586da938f734cbf5089011086b6f24c42f5470",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/history.json",
+      "size": 210,
+      "sha256": "97ad43d2e38ac8b6621d0a78ba4961cb12a4b62341bccf5a9329a0345c486544",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/metrics.json",
+      "size": 8927,
+      "sha256": "e6a77c1992205852a5c99127985b1dbf975644fef374d2d8597a933006aa5846",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/predictions.csv",
+      "size": 698105,
+      "sha256": "51242c072e9b956943e9b2a05a55424eb62b726b7d63c1d4f94b443ef10b3d3a",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/runtime.json",
+      "size": 177,
+      "sha256": "ec231007b211222f50322e402a954d287bd4424267f658a76dd9445ec23450c1",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/split_manifest.json",
+      "size": 185913,
+      "sha256": "be4758e83816cf710a777704c444e39611816cd09c0aae4b981f8e1c8300d044",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/splits/calibration.csv",
+      "size": 353993,
+      "sha256": "9cabef2e8eb4607bb0aa363bdae22c227357b0ffa188e27203df54b24d07bc32",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/splits/test.csv",
+      "size": 699359,
+      "sha256": "9dd57c3857576239f3a7bf73d28b9dd7a91423f7f2c2255e2aae9f1495e57835",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/splits/train.csv",
+      "size": 1406994,
+      "sha256": "e25778adc427b67a9286b8039c0c04431d2d097bb0278e3c6d00ac445cd443e3",
+      "replaced": false
+    },
+    {
+      "path": "runs/report_validation_taxi/taxibj/tsadc/42/splits/validation.csv",
+      "size": 353713,
+      "sha256": "3718bce6d8f1830bb163ab675cc422ce0af5633837aa2bbb69ea3524d6e70cdd",
+      "replaced": false
+    },
+    {
+      "path": "scripts/run_report_benchmarks.py",
+      "size": 5245,
+      "sha256": "617c64bf647a72d5d3b8278228b85aead35cfcd9fda13f257e52b9b04937edf8",
+      "replaced": false
+    },
+    {
+      "path": "tests/test_crowd_temperature.py",
+      "size": 8800,
+      "sha256": "bd0f053c81ba39ae70092a142cf8dc9e3ff89e7e9a5d72a2321ef621628c58ea",
+      "replaced": false
+    },
+    {
+      "path": "tests/test_intel_berkeley.py",
+      "size": 6458,
+      "sha256": "4acfa37a2acebd2731f1a31cbe84adbf56ac937f10885c2893abe414962438f9",
+      "replaced": false
+    },
+    {
+      "path": "tests/test_report_experiments.py",
+      "size": 8666,
+      "sha256": "2058ccace0273ed66d4473a2aca3673ee9864316e8fb1e337655053d7516a9b3",
+      "replaced": false
+    },
+    {
+      "path": "tests/test_taxibj.py",
+      "size": 6370,
+      "sha256": "b6fd6b671d593f8ef18375a75d1a537b532c6dea956757e3c624c3416929a89c",
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/__main__.py",
+      "size": 179,
+      "sha256": "74893cc8e32e83a0d9cea4975cd5c3617f398f0767c4e37c6c9bf6cecfdfd11e",
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/cli.py",
+      "size": 4930,
+      "sha256": "33f55a0807f7a3efdccdd7304a2235c1fce9d65217196de5811cf6ff92afe562",
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/corruption.py",
+      "size": 6907,
+      "sha256": "8aaad4656249bc41b5013dc54b2b09dfce34bad3b362bf13f8f146aed5ccac10",
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/data/crowd_temperature.py",
+      "size": 21968,
+      "sha256": "91a18b4c8fb9fd2d6343bf44149e94dd2231e5d900e48bd5a8e7158ed2b1b02d",
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/data/download.py",
+      "size": 7163,
+      "sha256": "3be8eb6e2055f0d3d6d7e7099b38c932beca4160206dab8c9b951086a3a76f46",
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/data/intel_berkeley.py",
+      "size": 12147,
+      "sha256": "afbd5f11588bf9f2d854f7ae48c460e92002703fc5174db3ad79b3ceb5897673",
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/data/taxibj.py",
+      "size": 13939,
+      "sha256": "0b5d84492082718056a632975a6a0e660496eaf930208ac617dccc76b6abf915",
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/evaluation.py",
+      "size": 7263,
+      "sha256": "74a8bf0b7e18e6cca8474d98e5cd459b230e27c0d23287cecf3c3d8a281d2f89",
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/experiment.py",
+      "size": 17696,
+      "sha256": "73d218ccdf77c1ef23a41f2ac71b7d30f8d37a64a02f92813a7114a07a31dfd5",
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/metrics.py",
+      "size": 3147,
+      "sha256": "7258dc7532892d295477ed5c4ae7c3268f6eb40ba5a258e1197e3f7bfa70ec9e",
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/models/prbtd.py",
+      "size": 11708,
+      "sha256": "a4038c092ac16b0d959536602ef2d3afe94d346205e6a285076c8fe66e47d118",
+      "replaced": true
+    }
+  ]
+}

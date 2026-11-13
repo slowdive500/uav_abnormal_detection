@@ -1,0 +1,56 @@
+{
+  "dataset": "queensu/crowd_temperature",
+  "version": "2015-11-20",
+  "doi": "10.15783/C7CG65",
+  "official_page": "https://ieee-dataport.org/open-access/crawdad-queensucrowdtemperature",
+  "author_page": "https://www.queenstrl.ca/datasets.html",
+  "legacy_metadata_page": "https://crawdad.org/~crawdadarchive/queensu/crowd_temperature/20151120/temperature/index.html",
+  "access_status": "user_supplied_original_csv_verified",
+  "access": "manual_authenticated_download",
+  "instructions": "After logging in at https://ieee-dataport.org/open-access/crawdad-queensucrowdtemperature, download crowd_temperature.csv and import it with: python -m uav_abnormality.data.crowd_temperature --input /path/to/downloaded/crowd_temperature.csv --destination data/raw/crowd_temperature",
+  "downloaded_data_files": 1,
+  "expected_size_display": "405.54 KB (IEEE); legacy metadata says 408KB",
+  "required_files": [
+    {
+      "path": "crowd_temperature.csv",
+      "checksum": "md5:8edf0ea0427d9e961ce77ca0c9a0d2f0",
+      "checksum_source": "Original CRAWDAD v2015-11-20 metadata, retained in indexed public archive description",
+      "authenticated_download_page": "https://ieee-dataport.org/open-access/crawdad-queensucrowdtemperature"
+    }
+  ],
+  "files": [],
+  "acquisition_command": "python -m uav_abnormality.data.crowd_temperature --input /path/to/downloaded/crowd_temperature.csv --destination data/raw/crowd_temperature",
+  "notes": [
+    "The user supplied the original CSV and its MD5 matches the original published checksum.",
+    "The original file contains no region IDs, reference truth, source quality classes or report-level anomaly labels.",
+    "Hyphen dates use month-day-year; 38 slash dates use day/month/year, preserving the documented February 1-4 collection.",
+    "Task regions and six-hour aggregation are explicitly configured in the adapter; all raw rows are preserved in the original file."
+  ],
+  "documentation_files": [
+    {
+      "path": "dataport_source.html",
+      "url": "https://ieee-dataport.org/open-access/crawdad-queensucrowdtemperature",
+      "size": 69108,
+      "checksum": "sha256:c2f8ea6cd731e386dc819a029143728b98752a1ee4430bce1a417ff84b941ec6"
+    },
+    {
+      "path": "queens_source.html",
+      "url": "https://www.queenstrl.ca/datasets.html",
+      "size": 43132,
+      "checksum": "sha256:9a790aa8808e601224597dfaba6fae997e73a8106127d90a91556098e47738bc"
+    }
+  ],
+  "provenance_receipt": "data/raw/crowd_temperature/download_receipt.json",
+  "actual_size": 415273,
+  "actual_sha256": "73daac8271d932764cd6acf8533c7f1319185ef38a6fc794471a96180eea9460",
+  "actual_columns": [
+    "Taxi ID",
+    "Date",
+    "Time",
+    "Latitude",
+    "Longitude",
+    "Temperature"
+  ],
+  "actual_rows": 5030,
+  "actual_sources": 289
+}

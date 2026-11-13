@@ -1,0 +1,21 @@
+# Report-level virtual UAV experiment; TaxiBJ itself is ground traffic data.
+raw_dir: data/raw/taxibj
+files: [BJ15_M32x32_T30_InOut.h5]
+channels: [inflow]
+cells: [[15, 15], [15, 16], [16, 15], [16, 16]]
+complete_days_only: true
+# Use chronological train/validation/calibration/test splitting for this mode.
+# Optional sequence_mode: day resets within-day windows and permits day splits.
+sequence_mode: campaign
+# Small real-data validation selection. Set null to use every complete BJ15 day;
+# add BJ13/BJ14 filenames to use all three downloaded periods.
+max_days: 8
+source_count: 8
+min_sources: 3
+participation_probability: 0.8
+normal_report_noise:
+  relative_std: 0.02
+  absolute_std: 0.25
+  source_bias_std: 0.005
+  round_counts: false
+seed: 20261113

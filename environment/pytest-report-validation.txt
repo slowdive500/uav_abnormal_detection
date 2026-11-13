@@ -1,0 +1,13 @@
+........................................................................ [ 61%]
+.............................................                            [100%]
+=============================== warnings summary ===============================
+tests/test_adapters.py::test_lapse_sources_missing_values_and_absolute_height
+  <frozen importlib._bootstrap>:219: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility. Expected 16 from C header, got 96 from PyObject
+
+tests/test_experiment.py: 2 warnings
+tests/test_tsadc.py: 8 warnings
+  /home/hhzhang/.conda/envs/UAV_Abnormality_Detect/lib/python3.8/site-packages/torch/nn/utils/weight_norm.py:134: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+    WeightNorm.apply(module, name, dim)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+117 passed, 11 warnings in 3.73s

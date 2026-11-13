@@ -1,0 +1,1091 @@
+{
+  "dataset": "LAPSE-RATE-UKY",
+  "record_id": "3923056",
+  "doi": "10.5281/zenodo.3923056",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "metadata_url": "https://zenodo.org/api/records/3923056",
+  "files": [
+    {
+      "path": "UKY.SOLOW.b1.20180718.140015.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.140015.cdf/content",
+      "size": 1318348,
+      "checksum": "md5:fb9ba5d71d88faa2ff498747353ab9d4"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.193003.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.193003.cdf/content",
+      "size": 476108,
+      "checksum": "md5:b518ea87493dca6607e28b16cc6966cd"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.190124.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.190124.cdf/content",
+      "size": 523724,
+      "checksum": "md5:f7fa1318e63f287de9d5732daf664278"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.173122.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.173122.cdf/content",
+      "size": 276684,
+      "checksum": "md5:0865d5367346e62b56f9d6a6dab22d72"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.173012.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.173012.cdf/content",
+      "size": 216524,
+      "checksum": "md5:2086a7dd310de14567c7f32e56141a94"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.1833-37.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.1833-37.cdf/content",
+      "size": 534220,
+      "checksum": "md5:a23d71eee1749d6999a975817c0b298b"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.163010.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.163010.cdf/content",
+      "size": 137420,
+      "checksum": "md5:cb6e8f85bc877c1f94627c58526450cf"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.175349.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.175349.cdf/content",
+      "size": 836300,
+      "checksum": "md5:c42be916067c1fd0e5b3ef9b359cefe1"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.172614.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.172614.cdf/content",
+      "size": 836300,
+      "checksum": "md5:5bd20f6f1d100a4c62308a128175d749"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180715.185925.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180715.185925.cdf/content",
+      "size": 1575372,
+      "checksum": "md5:437f9e911c7a50ed70ae889d6561b498"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.163033.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.163033.cdf/content",
+      "size": 825804,
+      "checksum": "md5:91029eb535d4d33c8f767454c55556a6"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.140024.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.140024.cdf/content",
+      "size": 308940,
+      "checksum": "md5:9579f2343b014fc97fed1c3c3dc403d9"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.141431.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.141431.cdf/content",
+      "size": 150220,
+      "checksum": "md5:e61be7dd3d13a4ab6e9aac0c2dd04545"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.155514.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.155514.cdf/content",
+      "size": 760268,
+      "checksum": "md5:eaab4c9c7bf10c718cbaa05aac8bc6f9"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.180250.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.180250.cdf/content",
+      "size": 454348,
+      "checksum": "md5:fe5ef67fdbfc7914d26cc6f28a41b4d8"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.152941.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.152941.cdf/content",
+      "size": 807884,
+      "checksum": "md5:f2cb6abdb896d9a501039b7efcac6de4"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.142804.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.142804.cdf/content",
+      "size": 837580,
+      "checksum": "md5:a12d2c098f666b3449b63ea10701474b"
+    },
+    {
+      "path": "UKY.S1000.b1.20180715.155800.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180715.155800.cdf/content",
+      "size": 2655180,
+      "checksum": "md5:6b9effc3c838be1804728c4977e60ab9"
+    },
+    {
+      "path": "UKY.S1000.b1.20180715.150049.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180715.150049.cdf/content",
+      "size": 1583564,
+      "checksum": "md5:edfaca86a9c44a0ca6a04ff3bbca6f59"
+    },
+    {
+      "path": "UKY.S1000.b1.20180715.141232.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180715.141232.cdf/content",
+      "size": 1855436,
+      "checksum": "md5:18bcc5ae181238cdfea445f980409fa0"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.165849.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.165849.cdf/content",
+      "size": 210124,
+      "checksum": "md5:e17808c50b15224f986d951a888c7b84"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180715.175933.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180715.175933.cdf/content",
+      "size": 1547980,
+      "checksum": "md5:8a37e0ad434d1bea211322bb77930cf8"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.161701.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.161701.cdf/content",
+      "size": 213708,
+      "checksum": "md5:8c3adf84f3207886046f6e978a31de3f"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.160000.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.160000.cdf/content",
+      "size": 24268,
+      "checksum": "md5:fed457788c14d7eb0bbfa946fa2fc68e"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.154516.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.154516.cdf/content",
+      "size": 211148,
+      "checksum": "md5:93a2200a409eeb0695b59dcfe0ec1b4e"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180715.165930.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180715.165930.cdf/content",
+      "size": 1406412,
+      "checksum": "md5:f9311aaae4f0b293d050080f702d549d"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180715.155959.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180715.155959.cdf/content",
+      "size": 1354188,
+      "checksum": "md5:550d621daf6e05c21d00e4649987c5ae"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180715.145960.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180715.145960.cdf/content",
+      "size": 1355468,
+      "checksum": "md5:2f505fed63140e48e8c6ed0ac320b9e0"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180715.140002.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180715.140002.cdf/content",
+      "size": 1329612,
+      "checksum": "md5:394caff1d590c8a1ed2529249cd5f764"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.160947.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.160947.cdf/content",
+      "size": 1717452,
+      "checksum": "md5:5b7954200b8b2e3dfcb228c135ac2b2c"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.155237.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.155237.cdf/content",
+      "size": 1738700,
+      "checksum": "md5:bd072cc1f37885a40d1bcdb279dbeef1"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.121531.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.121531.cdf/content",
+      "size": 236236,
+      "checksum": "md5:77b33b9808375f85e19b64d6bdd5860b"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.114851.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.114851.cdf/content",
+      "size": 257228,
+      "checksum": "md5:18d7354e89e7d97420c1fd723adbbc0f"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.112501.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.112501.cdf/content",
+      "size": 306636,
+      "checksum": "md5:d4831353ab1da0615be2d6d0239dcf1a"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.153554.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.153554.cdf/content",
+      "size": 1744076,
+      "checksum": "md5:45bb270f1a2d865d2ac93177e2c2f428"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.180012.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.180012.cdf/content",
+      "size": 360396,
+      "checksum": "md5:076a805cc802caef80c358ef3586fe39"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.174358.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.174358.cdf/content",
+      "size": 416204,
+      "checksum": "md5:57d1cbbc3b7a9694ad933e4165a4e84a"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.164441.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.164441.cdf/content",
+      "size": 427980,
+      "checksum": "md5:44fb47a43e80a0e805a4a02f378e9816"
+    },
+    {
+      "path": "UKY.S1000.b1.20180719.165638.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180719.165638.cdf/content",
+      "size": 1574860,
+      "checksum": "md5:fe8eb74247a6a6b93f0220c0efbbc8c9"
+    },
+    {
+      "path": "UKY.S1000.b1.20180719.155860.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180719.155860.cdf/content",
+      "size": 1622476,
+      "checksum": "md5:1ade9905a81267c45e3c7a9c3e261f5d"
+    },
+    {
+      "path": "UKY.S1000.b1.20180719.150031.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180719.150031.cdf/content",
+      "size": 1584588,
+      "checksum": "md5:5310f17169dad8110b52cdf23ff13bea"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.164406.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.164406.cdf/content",
+      "size": 426188,
+      "checksum": "md5:1998329bac1e88922ecca5f451a9ee9f"
+    },
+    {
+      "path": "UKY.S1000.b1.20180719.140739.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180719.140739.cdf/content",
+      "size": 1605836,
+      "checksum": "md5:6c08f1ebac512372a2327cb142d9f6a9"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.151938.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.151938.cdf/content",
+      "size": 1777356,
+      "checksum": "md5:cd347b4df742d708568bcf06df63dd1d"
+    },
+    {
+      "path": "UKY.S1000.b1.20180719.125943.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180719.125943.cdf/content",
+      "size": 1616076,
+      "checksum": "md5:3ac8ab994a16f62c837211a9b2a3ab4a"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.154426.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.154426.cdf/content",
+      "size": 449996,
+      "checksum": "md5:397c0fd4dca5a650d2f1f78621bd7c31"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.150121.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.150121.cdf/content",
+      "size": 473548,
+      "checksum": "md5:8295a2239af38c853afb3547b81301c3"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.154352.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.154352.cdf/content",
+      "size": 402380,
+      "checksum": "md5:94c824007076916b8ebdc3501a5403be"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.144604.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.144604.cdf/content",
+      "size": 1531596,
+      "checksum": "md5:ddf2018cfb6e9ed08d8cc871ea28c6e5"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.143052.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.143052.cdf/content",
+      "size": 1722828,
+      "checksum": "md5:91c2a7affde4435674b190234851676d"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.200002.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.200002.cdf/content",
+      "size": 295372,
+      "checksum": "md5:7cb529fcca63c7ce80702ab963c4fdc5"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.191458.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.191458.cdf/content",
+      "size": 776652,
+      "checksum": "md5:feb8becdc4fcd5674dd5d57dfb884348"
+    },
+    {
+      "path": "UKY.S1000.b1.20180719.120927.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180719.120927.cdf/content",
+      "size": 1535948,
+      "checksum": "md5:137b6281cc94c812be6c86722bc29f12"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.141911.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.141911.cdf/content",
+      "size": 1260748,
+      "checksum": "md5:da90e65893e347d5ca49fab2ac935b87"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.151051.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.151051.cdf/content",
+      "size": 315084,
+      "checksum": "md5:a146dd097407ab249f0ecf5935bcb76a"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.151028.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.151028.cdf/content",
+      "size": 321484,
+      "checksum": "md5:63db79a400e38617675c5997c840a2f4"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.145533.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.145533.cdf/content",
+      "size": 328908,
+      "checksum": "md5:bf4c7c9a269f33a0f127da359cd6c7c4"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.152933.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.152933.cdf/content",
+      "size": 210380,
+      "checksum": "md5:3c555d35ed26b53d8f11330d55ea721d"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.162550.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.162550.cdf/content",
+      "size": 1257164,
+      "checksum": "md5:c781e6678b9374999699ddedaa8aa7b6"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.163960.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.163960.cdf/content",
+      "size": 1588428,
+      "checksum": "md5:5dc6c239515b44e1986193b1adefac14"
+    },
+    {
+      "path": "UKY.TOWER.b1.20180714.060002.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.TOWER.b1.20180714.060002.cdf/content",
+      "size": 6687340,
+      "checksum": "md5:6b51cf309b6c76a7c45ca8ae78dff670"
+    },
+    {
+      "path": "UKY.TOWER.b1.20180716.060002.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.TOWER.b1.20180716.060002.cdf/content",
+      "size": 6687340,
+      "checksum": "md5:efb0c60e5c37cec0aa95d9f42043da4d"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.150000.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.150000.cdf/content",
+      "size": 318924,
+      "checksum": "md5:d2d5bd55c5755364146da4c991847d70"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.145918.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.145918.cdf/content",
+      "size": 215244,
+      "checksum": "md5:9e7639bf0b3ec327ce2f05cf111384b3"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.151457.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.151457.cdf/content",
+      "size": 756684,
+      "checksum": "md5:821b5d181227af7ae0868c5be78a6e5f"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.153033.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.153033.cdf/content",
+      "size": 393932,
+      "checksum": "md5:c4283225c012b046fc4569bdc452d8a3"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.154458.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.154458.cdf/content",
+      "size": 772044,
+      "checksum": "md5:7bbe8da8c40adfad8cb3ff431f7a17a9"
+    },
+    {
+      "path": "UKY.TOWER.b1.20180715.060002.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.TOWER.b1.20180715.060002.cdf/content",
+      "size": 6687340,
+      "checksum": "md5:c051790c019e8279e3ac80ed777f1de2"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.132958.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.132958.cdf/content",
+      "size": 208332,
+      "checksum": "md5:f82c5c4bca67c94350db48b74c819968"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.155959.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.155959.cdf/content",
+      "size": 750028,
+      "checksum": "md5:83de3532f1d37b7ec84f5d2948952a3a"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.161502.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.161502.cdf/content",
+      "size": 735180,
+      "checksum": "md5:915e695c6553c020dc719b9cd9a34fc2"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.124312.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.124312.cdf/content",
+      "size": 237772,
+      "checksum": "md5:efe1db1e72a3434f1a939213cb368d52"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.135950.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.135950.cdf/content",
+      "size": 207564,
+      "checksum": "md5:45b44831ad76df277683220f588f65c4"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.140349.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.140349.cdf/content",
+      "size": 1710796,
+      "checksum": "md5:585a9354b337e87393aac71698a683fa"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.163001.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.163001.cdf/content",
+      "size": 767436,
+      "checksum": "md5:f80b856767326dce1cc408d91934f908"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.164505.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.164505.cdf/content",
+      "size": 746956,
+      "checksum": "md5:54843bae93d2680ded3dcf144d07d5a8"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.165958.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.165958.cdf/content",
+      "size": 753356,
+      "checksum": "md5:6a387d03dd1cddd2aa0777ca37886cc2"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.134839.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.134839.cdf/content",
+      "size": 1717452,
+      "checksum": "md5:70727e3fde7d417728f5551b962f066d"
+    },
+    {
+      "path": "UKY.TOWER.b1.20180717.060002.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.TOWER.b1.20180717.060002.cdf/content",
+      "size": 6687340,
+      "checksum": "md5:e4b9e3fafbdfd37652e3d8db1a60a6a9"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.133312.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.133312.cdf/content",
+      "size": 1729996,
+      "checksum": "md5:0498bd1b96d63e2f97758426ee6e485b"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.131616.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.131616.cdf/content",
+      "size": 1714636,
+      "checksum": "md5:1040464186b324eb0ffec55a67c4d03a"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.125934.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.125934.cdf/content",
+      "size": 1718988,
+      "checksum": "md5:a356c1db55fba8be8239eab49be04b4f"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.123856.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.123856.cdf/content",
+      "size": 1772492,
+      "checksum": "md5:ff2717e57a6e8555dd6034376bba0931"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.122206.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.122206.cdf/content",
+      "size": 1950668,
+      "checksum": "md5:07061c5d0cc5ee8b3e9404bb07d71663"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.185957.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.185957.cdf/content",
+      "size": 762060,
+      "checksum": "md5:787e5f5405e5145022f501e91d4e8855"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.184249.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.184249.cdf/content",
+      "size": 847308,
+      "checksum": "md5:28a28e6118ba3fc37fedacc4c02f2ece"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.193001.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.193001.cdf/content",
+      "size": 752844,
+      "checksum": "md5:d57e85d902afc39eeeb77dda6891d081"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.194459.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.194459.cdf/content",
+      "size": 772044,
+      "checksum": "md5:ba6ed077a8fb547d758c7ec6ab5cc47f"
+    },
+    {
+      "path": "UKY.TOWER.b1.20180718.060002.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.TOWER.b1.20180718.060002.cdf/content",
+      "size": 3738156,
+      "checksum": "md5:4824c72bec9c550a2923b6b90dab467c"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.195959.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.195959.cdf/content",
+      "size": 749516,
+      "checksum": "md5:9128ef44ec8daf2824b4946d3f13c4cf"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.171458.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.171458.cdf/content",
+      "size": 727756,
+      "checksum": "md5:e0efaec162508990284fa5cf50077cf5"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.172956.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.172956.cdf/content",
+      "size": 744908,
+      "checksum": "md5:30d14c80db60e441f19df30d6ea6b8c6"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.201460.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.201460.cdf/content",
+      "size": 782028,
+      "checksum": "md5:9431341406409e8922f817bb856ea1b1"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.125957.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.125957.cdf/content",
+      "size": 1591756,
+      "checksum": "md5:31dd96d89ac0cad7275358e1417d974d"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.133000.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.133000.cdf/content",
+      "size": 1305804,
+      "checksum": "md5:ee0fde5b9a4d31fc14d1c6fb4317e7fc"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.143014.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.143014.cdf/content",
+      "size": 1332172,
+      "checksum": "md5:9d4502262977cff829fa28cf452c71b9"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.150016.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.150016.cdf/content",
+      "size": 1313228,
+      "checksum": "md5:199b391ba4be84c04db801407044c275"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.153014.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.153014.cdf/content",
+      "size": 1283788,
+      "checksum": "md5:b1b54af63bebda4a0fd8b7552c4c4236"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.180012.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.180012.cdf/content",
+      "size": 266444,
+      "checksum": "md5:1308b654172d4d8012bd7c465d431179"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.160015.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.160015.cdf/content",
+      "size": 1320140,
+      "checksum": "md5:9fb57aa59cec6b3e1817ba5a7e1f745f"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.163019.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.163019.cdf/content",
+      "size": 826572,
+      "checksum": "md5:9d8665469cc4a1b69c4a93048f5260d2"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.170013.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.170013.cdf/content",
+      "size": 1355724,
+      "checksum": "md5:496dd76bbdff51d977b58664146e0476"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.1703-4.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.1703-4.cdf/content",
+      "size": 520396,
+      "checksum": "md5:c687a44c30e609efc65ecf22291636de"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180718.173016.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180718.173016.cdf/content",
+      "size": 851916,
+      "checksum": "md5:06926488c81f34ac7cc77c49c0826434"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.182944.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.182944.cdf/content",
+      "size": 352460,
+      "checksum": "md5:f05cbb4f2c6715317fac2a074a410d13"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.113013.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.113013.cdf/content",
+      "size": 1092300,
+      "checksum": "md5:d25eed8515f9b44d292c6e657e2a98fe"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.114021.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.114021.cdf/content",
+      "size": 1943500,
+      "checksum": "md5:6b1971e2b898c8a5554bcd882ba552a3"
+    },
+    {
+      "path": "UKY.S1000.b1.20180716.190951.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180716.190951.cdf/content",
+      "size": 790476,
+      "checksum": "md5:d9c1be752e920abb3cc46e3fdac7e8fd"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.174527.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.174527.cdf/content",
+      "size": 762060,
+      "checksum": "md5:7021bdfb03e3006117ccd8c548d228d6"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.175957.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.175957.cdf/content",
+      "size": 773324,
+      "checksum": "md5:189a08ab2176bb98a94148a5af5a00c5"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.181502.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.181502.cdf/content",
+      "size": 711372,
+      "checksum": "md5:9d60fe2205a16f3aa7f705c58e60b47a"
+    },
+    {
+      "path": "UKY.S1000.b1.20180718.132956.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180718.132956.cdf/content",
+      "size": 1935820,
+      "checksum": "md5:9fb662b0c397eedebf1c3e3f5151eac5"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.182959.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.182959.cdf/content",
+      "size": 762316,
+      "checksum": "md5:ab499a04ed3b4175d92306485b852d34"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180716.184502.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180716.184502.cdf/content",
+      "size": 763596,
+      "checksum": "md5:66a6256dcab3ead1bfefc2d40ff9525a"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.193015.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.193015.cdf/content",
+      "size": 481740,
+      "checksum": "md5:990be06604a8bf08a1252750ea1fc39f"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.190016.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.190016.cdf/content",
+      "size": 412876,
+      "checksum": "md5:be7d8108cb2c19e2ffa3e4396744017d"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.140102.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.140102.cdf/content",
+      "size": 309452,
+      "checksum": "md5:c8fff5afcc01d5850a217c88ecf62afe"
+    },
+    {
+      "path": "UKY.zip",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.zip/content",
+      "size": 1979614419,
+      "checksum": "md5:d8deab7a005608d6b1fc19b016935d3a"
+    },
+    {
+      "path": "UKY.M600P.b1.20180718.140235.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180718.140235.cdf/content",
+      "size": 149708,
+      "checksum": "md5:6b6bc271f1dd15a91109178c9087b31b"
+    },
+    {
+      "path": "UKY.S1000.b1.20180718.175918.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180718.175918.cdf/content",
+      "size": 1574348,
+      "checksum": "md5:4be41e4abd31f71e66b68868d3d79b58"
+    },
+    {
+      "path": "UKY.S1000.b1.20180718.165850.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180718.165850.cdf/content",
+      "size": 1587660,
+      "checksum": "md5:60a04cae25d8a6471aa93bc57a058342"
+    },
+    {
+      "path": "UKY.S1000.b1.20180718.161414.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180718.161414.cdf/content",
+      "size": 1591500,
+      "checksum": "md5:fdc349362f38e00c90126d4c8c4b4565"
+    },
+    {
+      "path": "UKY.S1000.b1.20180718.152952.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180718.152952.cdf/content",
+      "size": 1552076,
+      "checksum": "md5:5a45c547dffd9a32581dc9b1328a052d"
+    },
+    {
+      "path": "UKY.S1000.b1.20180718.142956.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.S1000.b1.20180718.142956.cdf/content",
+      "size": 1564620,
+      "checksum": "md5:d0a55d8dce5a7981ea905122a95340ed"
+    },
+    {
+      "path": "UKY.M600P.b1.20180716.192921.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180716.192921.cdf/content",
+      "size": 527564,
+      "checksum": "md5:8017ee2b8216d7fed5b01aa52a675618"
+    },
+    {
+      "path": "UKY.SOLOW.b1.20180719.115729.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.SOLOW.b1.20180719.115729.cdf/content",
+      "size": 1956556,
+      "checksum": "md5:fc73538eb7148511af04ea2f7a04b9d5"
+    },
+    {
+      "path": "UKY.M600P.b1.20180719.142919.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180719.142919.cdf/content",
+      "size": 216524,
+      "checksum": "md5:07d4b234c2dee6415438f38df32c5d7d"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180715.153016.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180715.153016.cdf/content",
+      "size": 51620044,
+      "checksum": "md5:1dcb00333c5ee3340318633cdb528987"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180715.192753.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180715.192753.cdf/content",
+      "size": 69992396,
+      "checksum": "md5:74fe65b84077f958af8602eeb47b12dc"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180715.183020.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180715.183020.cdf/content",
+      "size": 69224396,
+      "checksum": "md5:b164f874711df3f7ff3d6d829ad5e49d"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180719.160243.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180719.160243.cdf/content",
+      "size": 110641612,
+      "checksum": "md5:ee8b87e25ff43e245f1aa2eab114e1c0"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180718.173026.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180718.173026.cdf/content",
+      "size": 67647692,
+      "checksum": "md5:8b1163738a07464be8267c0bdfb7c299"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180719.134326.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180719.134326.cdf/content",
+      "size": 158808524,
+      "checksum": "md5:3012ca59db66e7994e029d17f697a6c4"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180719.150637.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180719.150637.cdf/content",
+      "size": 110764748,
+      "checksum": "md5:b46a2817e0d8191fd38a0e99799921ec"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180719.135600.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180719.135600.cdf/content",
+      "size": 143981004,
+      "checksum": "md5:7f5f3840e4dfc2032b21f7248494ad2b"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180718.163026.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180718.163026.cdf/content",
+      "size": 69856972,
+      "checksum": "md5:4102080926ed401997c2ed539fe5b477"
+    },
+    {
+      "path": "README.txt",
+      "url": "https://zenodo.org/api/records/3923056/files/README.txt/content",
+      "size": 2817,
+      "checksum": "md5:7c906b73beb46e2152399f1aef10d873"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180719.125725.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180719.125725.cdf/content",
+      "size": 132279244,
+      "checksum": "md5:3db1676761d800f0a9c398b2ba574937"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180715.150841.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180715.150841.cdf/content",
+      "size": 50058956,
+      "checksum": "md5:a14cc324819ff51496666a6278431277"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180716.195518.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180716.195518.cdf/content",
+      "size": 88327628,
+      "checksum": "md5:3521fcb13ba7363de55da1e872787bfa"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180719.115754.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180719.115754.cdf/content",
+      "size": 107899084,
+      "checksum": "md5:ba014d612ad8e441e27fed072f6cecad"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.163313.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.163313.cdf/content",
+      "size": 520140,
+      "checksum": "md5:b791bbb702dbc50d8e2edc88ca73611e"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180719.125227.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180719.125227.cdf/content",
+      "size": 109838028,
+      "checksum": "md5:a9b4cdbcc714f84989f6d1a5ad60d76d"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180715.160442.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180715.160442.cdf/content",
+      "size": 52577996,
+      "checksum": "md5:89c687736c3dc34d29e99eb7acf4397a"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180719.135008.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180719.135008.cdf/content",
+      "size": 124791244,
+      "checksum": "md5:9bc1b0233fce8b98c8548a0e305d3dbc"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180718.130024.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180718.130024.cdf/content",
+      "size": 51475660,
+      "checksum": "md5:591ebfccd3921c776110cc64107fc464"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180719.144008.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180719.144008.cdf/content",
+      "size": 100874188,
+      "checksum": "md5:74551e5f3dd33a9429352b8f6e1f2d7d"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180718.140024.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180718.140024.cdf/content",
+      "size": 51128012,
+      "checksum": "md5:256cd5fa2b192cb5b7628db4db3724ba"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180719.152919.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180719.152919.cdf/content",
+      "size": 74496460,
+      "checksum": "md5:26a980b435be0682822d0fa93ff55003"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180719.112655.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180719.112655.cdf/content",
+      "size": 42118604,
+      "checksum": "md5:8c837314465a72c2060b126ce969b7bb"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180719.161016.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180719.161016.cdf/content",
+      "size": 75082700,
+      "checksum": "md5:ca888bfd55524973721b9ef7d1bcd5fc"
+    },
+    {
+      "path": "UKY.BCT5C.b1.20180716.145958.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5C.b1.20180716.145958.cdf/content",
+      "size": 74755532,
+      "checksum": "md5:c408eaeecf22bc2088d51b382b5b366d"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180718.143025.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180718.143025.cdf/content",
+      "size": 47780300,
+      "checksum": "md5:08d2c9324d0e49178902325572729768"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180718.174520.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180718.174520.cdf/content",
+      "size": 73728460,
+      "checksum": "md5:ef234d6ca7ad0973ebf3169b3f01ca48"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.153000.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.153000.cdf/content",
+      "size": 575436,
+      "checksum": "md5:a21950bf2ccbfd98cace498826ed29ec"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180719.145054.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180719.145054.cdf/content",
+      "size": 122133964,
+      "checksum": "md5:fdc89b3fcf5368c5263c9bb2c74def0b"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.1330-5.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.1330-5.cdf/content",
+      "size": 608972,
+      "checksum": "md5:8084162d56d8c0e13a04687a1c411ee8"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.1400-4.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.1400-4.cdf/content",
+      "size": 606156,
+      "checksum": "md5:ec13ac702cad622a7220957c1f027095"
+    },
+    {
+      "path": "UKY.BCT5C.b1.20180716.155644.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5C.b1.20180716.155644.cdf/content",
+      "size": 11891404,
+      "checksum": "md5:8ebbf7ce6d242747537fa09a0c2a9e91"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180715.170926.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180715.170926.cdf/content",
+      "size": 49890508,
+      "checksum": "md5:bf575e8be5da7639f40cdfe179a41f3b"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180715.143019.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180715.143019.cdf/content",
+      "size": 48740556,
+      "checksum": "md5:06ebf9777f6601bc5d3ce78c2510d02b"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180718.171519.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180718.171519.cdf/content",
+      "size": 65533900,
+      "checksum": "md5:b22f3ab9019b3de49b1d45fb31b174b9"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180718.161518.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180718.161518.cdf/content",
+      "size": 83392972,
+      "checksum": "md5:065c2984029ca5b82f4bbf3b184145d0"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180718.151518.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180718.151518.cdf/content",
+      "size": 70130380,
+      "checksum": "md5:a7b9525ace4282f5594080dc24014aac"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.143000.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.143000.cdf/content",
+      "size": 647884,
+      "checksum": "md5:31f28c1d12d6018aba6453e72ac3e93b"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180715.180159.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180715.180159.cdf/content",
+      "size": 50304204,
+      "checksum": "md5:027e460ad3908288c34dcfe17e61bbba"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180716.150731.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180716.150731.cdf/content",
+      "size": 49543884,
+      "checksum": "md5:55820c5c5a36a37fe2bb55ed89a21ca2"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.160302.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.160302.cdf/content",
+      "size": 511692,
+      "checksum": "md5:3cb332698a65752525d9d0fdd472dec6"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180716.153843.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180716.153843.cdf/content",
+      "size": 51156684,
+      "checksum": "md5:7cce5e84cb49e1fdd3cbddc98ccc0355"
+    },
+    {
+      "path": "UKY.BCT5B.b1.20180716.185804.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5B.b1.20180716.185804.cdf/content",
+      "size": 67811276,
+      "checksum": "md5:f250db7b222742b7fefa53101e3f6102"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180715.163019.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180715.163019.cdf/content",
+      "size": 69218764,
+      "checksum": "md5:0ac31667fc6b4a29988650ca462c361f"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180718.150025.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180718.150025.cdf/content",
+      "size": 48886988,
+      "checksum": "md5:7ad391bdcc742fea0fa2da72b231bb4c"
+    },
+    {
+      "path": "UKY.M600P.b1.20180715.150000.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.M600P.b1.20180715.150000.cdf/content",
+      "size": 644812,
+      "checksum": "md5:e33146dcefa8178429c6c852298716e5"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180718.141457.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180718.141457.cdf/content",
+      "size": 368076,
+      "checksum": "md5:c3c6ee468bb463004c3f7c14fc1f872b"
+    },
+    {
+      "path": "UKY.BCT5E.b1.20180719.124512.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5E.b1.20180719.124512.cdf/content",
+      "size": 131716044,
+      "checksum": "md5:cd661e45ab246f4efb26cddb4d62a6c1"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180718.131517.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180718.131517.cdf/content",
+      "size": 93523660,
+      "checksum": "md5:64e2f93d9d5fc2333db738cf358202ab"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180716.160019.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180716.160019.cdf/content",
+      "size": 50595020,
+      "checksum": "md5:796eec0b7373e355cb4e910ff94a53d5"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180716.153019.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180716.153019.cdf/content",
+      "size": 55950284,
+      "checksum": "md5:927c90d52bd330f0df1a62006c5cfdc2"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180716.143019.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180716.143019.cdf/content",
+      "size": 51063756,
+      "checksum": "md5:6e577cb62f238a208c15dbb13fea22a6"
+    },
+    {
+      "path": "UKY.BCT5D.b1.20180715.173020.cdf",
+      "url": "https://zenodo.org/api/records/3923056/files/UKY.BCT5D.b1.20180715.173020.cdf/content",
+      "size": 72959692,
+      "checksum": "md5:4b2d8a2b51a8d9246531f028354da7d5"
+    }
+  ]
+}

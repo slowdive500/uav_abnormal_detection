@@ -1,0 +1,11 @@
+mode: detector_reports
+raw_dir: data/raw/uav3d
+version: v1.0-mini
+reports_path: data/interim/uav3d_ssdlite_reports.jsonl
+coordinate_frame: global
+metadata_coordinate_convention: uav3d_carla
+association_gate_m: 5.0
+association_max_gap_seconds: 5.0
+duplicate_policy: error
+min_physical_sources: 2
+metadata_timestamp_unit: ns

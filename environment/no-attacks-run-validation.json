@@ -1,0 +1,1881 @@
+{
+  "status": "passed",
+  "completed_runs": 45,
+  "expected_runs": 45,
+  "input_evidence": {
+    "crowd_temperature": {
+      "current_and_attack_inputs_identical": true,
+      "sha256": {
+        "reports": "88c8e737957ebeb3a2a39f683705f084b709b8836d4aecdc46c82b8002a8091c"
+      }
+    },
+    "intel_berkeley": {
+      "current_and_attack_inputs_identical": true,
+      "sha256": {
+        "reports": "9b778e59a35e750922aa4a27603fad1e092f355bd50ba9924b9f129ea9641132",
+        "queries": "42cc7d12ab5b4006522475daf64daa75fa9ef00f5c1a2eca99fd1e939c207361"
+      }
+    },
+    "taxibj": {
+      "current_and_attack_inputs_identical": true,
+      "sha256": {
+        "reports": "4354e166597f2757f68d524f6c8690a8fac1d7c307f6ac9a29d0d45234b470f4"
+      }
+    }
+  },
+  "same_split_hashes_across_methods_and_seeds": true,
+  "summary_checks": {
+    "statistics_fields_checked": 1350,
+    "ddof": 1,
+    "nulls_not_imputed": true,
+    "per_seed_FPR_recomputed": true,
+    "contamination_zero_in_all_stages": true
+  },
+  "runs": [
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "condition_alignment",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 17,
+      "false_positive_rate": 0.026984126984126985,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 51,
+        "removed": 0,
+        "retained": 51,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "condition_alignment",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 18,
+      "false_positive_rate": 0.02857142857142857,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 51,
+        "removed": 0,
+        "retained": 51,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "condition_alignment",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 17,
+      "false_positive_rate": 0.026984126984126985,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 51,
+        "removed": 0,
+        "retained": 51,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "condition_alignment",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 18,
+      "false_positive_rate": 0.02857142857142857,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 51,
+        "removed": 0,
+        "retained": 51,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "condition_alignment",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 16,
+      "false_positive_rate": 0.025396825396825397,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 51,
+        "removed": 0,
+        "retained": 51,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "prbtd",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 49,
+      "false_positive_rate": 0.07777777777777778,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "prbtd",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 35,
+      "false_positive_rate": 0.05555555555555555,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "prbtd",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 36,
+      "false_positive_rate": 0.05714285714285714,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "prbtd",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 15,
+      "false_positive_rate": 0.023809523809523808,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "prbtd",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 12,
+      "false_positive_rate": 0.01904761904761905,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "tsadc",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 34,
+      "false_positive_rate": 0.05396825396825397,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "tsadc",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 30,
+      "false_positive_rate": 0.047619047619047616,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "tsadc",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 38,
+      "false_positive_rate": 0.06031746031746032,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "tsadc",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 21,
+      "false_positive_rate": 0.03333333333333333,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "tsadc",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 1243,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "64a47f7f2987fd0e5f21bc00c16ee338fe37fa63f9b0ddde6a7536f0f48c25dd"
+        },
+        "validation": {
+          "reports": 265,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "675990d7b64359a400320001e0baf028dbdc3be2c24c6fe1c325f82cf0ff4acc"
+        },
+        "calibration": {
+          "reports": 886,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "33ae7394a6f55737d42b07cb578c8f6393a230e7d50e68773f1c238473297799"
+        },
+        "test": {
+          "reports": 712,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4aa1e3dfbf87fe363094e3a54fd6e136ac3022604933369f7cd0cf48892350e2"
+        }
+      },
+      "scored_reports": 630,
+      "false_positives": 26,
+      "false_positive_rate": 0.04126984126984127,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "condition_alignment",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 1,
+      "false_positive_rate": 0.0004420866489832007,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "condition_alignment",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 1,
+      "false_positive_rate": 0.0004420866489832007,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "condition_alignment",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 1,
+      "false_positive_rate": 0.0004420866489832007,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "condition_alignment",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 1,
+      "false_positive_rate": 0.0004420866489832007,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "condition_alignment",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 1,
+      "false_positive_rate": 0.0004420866489832007,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "prbtd",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 111,
+      "false_positive_rate": 0.04907161803713528,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "prbtd",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 41,
+      "false_positive_rate": 0.018125552608311227,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "prbtd",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 143,
+      "false_positive_rate": 0.06321839080459771,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "prbtd",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 60,
+      "false_positive_rate": 0.026525198938992044,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "prbtd",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 41,
+      "false_positive_rate": 0.018125552608311227,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "tsadc",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 22,
+      "false_positive_rate": 0.009725906277630416,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "tsadc",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 21,
+      "false_positive_rate": 0.009283819628647215,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "tsadc",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 21,
+      "false_positive_rate": 0.009283819628647215,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "tsadc",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 33,
+      "false_positive_rate": 0.014588859416445624,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "tsadc",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 4908,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "4fa41e7d7e2ce6c5f1ffd536127a39d2521af67df2592702271ad46fc0a93bef"
+        },
+        "validation": {
+          "reports": 1233,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "32269caeb3deb3c21cc89ec93ce1f8697de558756fa989d34a133d3b4350f2bd"
+        },
+        "calibration": {
+          "reports": 1234,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "fe8cfbd1e8f26fc39e7c61624515488bc941ac7a3b53ff1ddff1eec657a0dbca"
+        },
+        "test": {
+          "reports": 2439,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "ca98e92a28a5db3dda2748c79ccde2ac782d9adb22d54b4bdc245d656c69a478"
+        }
+      },
+      "scored_reports": 2262,
+      "false_positives": 69,
+      "false_positive_rate": 0.03050397877984085,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "condition_alignment",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 500,
+      "false_positive_rate": 0.11301989150090416,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "condition_alignment",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 530,
+      "false_positive_rate": 0.11980108499095841,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "condition_alignment",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 490,
+      "false_positive_rate": 0.11075949367088607,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "condition_alignment",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 515,
+      "false_positive_rate": 0.11641048824593128,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "condition_alignment",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 470,
+      "false_positive_rate": 0.10623869801084991,
+      "positive_detection_metrics_null": true,
+      "calibration": {
+        "n": 24,
+        "removed": 0,
+        "retained": 24,
+        "alarms_attainable": true
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "prbtd",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 339,
+      "false_positive_rate": 0.07662748643761302,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "prbtd",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 216,
+      "false_positive_rate": 0.048824593128390596,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "prbtd",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 223,
+      "false_positive_rate": 0.050406871609403256,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "prbtd",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 346,
+      "false_positive_rate": 0.07820976491862568,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "prbtd",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 0,
+      "false_positive_rate": 0.0,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "tsadc",
+      "seed": 0,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 317,
+      "false_positive_rate": 0.07165461121157324,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "tsadc",
+      "seed": 42,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 296,
+      "false_positive_rate": 0.06690777576853527,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "tsadc",
+      "seed": 46,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 358,
+      "false_positive_rate": 0.08092224231464738,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "tsadc",
+      "seed": 47,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 354,
+      "false_positive_rate": 0.08001808318264014,
+      "positive_detection_metrics_null": true
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "tsadc",
+      "seed": 1024,
+      "splits": {
+        "train": {
+          "reports": 9173,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "568876b93f76bca65c6ad8fe4fd9c943bdf305e4fca5b74ff05320eb716327fe"
+        },
+        "validation": {
+          "reports": 2298,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "bea6d07284ef2a3de224cbfa50dfb5dadb01592a7bbf7b911e67220b3c8a4a0b"
+        },
+        "calibration": {
+          "reports": 2299,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "3056cac71392ecd29141ebf1c7432970982195236aa80f1c65c0dd43199ace15"
+        },
+        "test": {
+          "reports": 4600,
+          "actual_injections": 0,
+          "values_match_prepared": true,
+          "conditions_and_truth_unchanged": true,
+          "sha256": "511e5417bda4296977ea71a56b1ba3b0ab2e0fc18828872838f1a579a3c69afd"
+        }
+      },
+      "scored_reports": 4424,
+      "false_positives": 279,
+      "false_positive_rate": 0.06306509945750452,
+      "positive_detection_metrics_null": true
+    }
+  ]
+}

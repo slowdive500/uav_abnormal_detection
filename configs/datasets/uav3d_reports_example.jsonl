@@ -1,0 +1,2 @@
+{"timestamp": 0.0, "sequence_id": "schema_example_not_benchmark", "source_id": "uav_0", "task_id": "associated_track_12", "x": 10.1, "y": 5.2, "z": 1.0, "confidence": 0.91, "coordinate_frame": "global"}
+{"timestamp": 0.0, "sequence_id": "schema_example_not_benchmark", "source_id": "uav_1", "task_id": "associated_track_12", "x": 10.4, "y": 5.1, "z": 1.2, "confidence": 0.87, "coordinate_frame": "global"}

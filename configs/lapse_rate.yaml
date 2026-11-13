@@ -1,0 +1,23 @@
+# Real wind reports; review coverage before launching. Full subset may need more flights.
+algorithm: prbtd
+seed: 42
+data:
+  path: data/processed/lapse_rate.csv
+split:
+  mode: chronological
+  ratios: [0.6, 0.15, 0.1, 0.15]
+window:
+  window_size: 8
+  min_sources: 2
+  max_gap_seconds: 30
+training:
+  device: auto
+  threads: 2
+  epochs: 30
+  patience: 5
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0
+calibration:
+  alpha: 0.05
+# Labels stay unknown unless you explicitly select the semi-synthetic protocol.

@@ -1,0 +1,1039 @@
+{
+  "source": "/tmp/uav_condition_method",
+  "target": "/home/hhzhang/projects/UAV_abnormality_detection",
+  "backup": "/tmp/uav_condition_backup_20261113_125905",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "a7a99b05d4c7ec0763ed307f5940c5a59186403abd6a740042591acb82ec647b",
+      "size": 5774,
+      "replaced": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "5a6e4a0a2461124a5be8ff0ff06843e6d65c104ff7b2941800937eb60690b1f6",
+      "size": 2323,
+      "replaced": true
+    },
+    {
+      "path": "configs/experiments/crowd_temperature.yaml",
+      "sha256": "998848bdd0898e452113a29bd41de7330b5d1a4e866d52e6f5d28ebc6e0f0aad",
+      "size": 1966,
+      "replaced": true
+    },
+    {
+      "path": "configs/experiments/intel_berkeley.yaml",
+      "sha256": "51455a113f34504fbe4f92d99f446b5d6b81511739fb8ec5973ba3779f927fbb",
+      "size": 2100,
+      "replaced": true
+    },
+    {
+      "path": "configs/experiments/taxibj.yaml",
+      "sha256": "57f6ba571ea072564b6fd9dee3ee608dea33f5904f0fd11fa1d1abc179f226c7",
+      "size": 2033,
+      "replaced": true
+    },
+    {
+      "path": "docs/DATA_AND_PROTOCOL.md",
+      "sha256": "fce425cb6d46c295563af4d1474f6d03756bd1e35f34dcc4591339ed393f6199",
+      "size": 6616,
+      "replaced": false
+    },
+    {
+      "path": "docs/METHOD.md",
+      "sha256": "9e66ef4edee5a58fa7c89ea6100c217e4c987d8e1541f561f69e65668ebcca78",
+      "size": 9330,
+      "replaced": false
+    },
+    {
+      "path": "docs/PROPOSAL.md",
+      "sha256": "89d51ee0aa65fed2ff4fdd478a5b6d2d44b4b18a578afee7e091d8e8c913e2f9",
+      "size": 12865,
+      "replaced": false
+    },
+    {
+      "path": "docs/REPORT_EXPERIMENTS.md",
+      "sha256": "ef73f97a5ae5729fe6048b50ca97d7a2e5b7da7af52af5d01ad8510061161518",
+      "size": 5274,
+      "replaced": true
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "99ef552fe77ea422c3eb9a1df9cbfe67ff295083fe4b396f3588c4a6780dab60",
+      "size": 4116,
+      "replaced": true
+    },
+    {
+      "path": "docs/crowd_temperature.md",
+      "sha256": "621cc00aae9e513fc801e713b6623f8e580cbf187a90dac3f586ddac93e3e2c5",
+      "size": 3004,
+      "replaced": true
+    },
+    {
+      "path": "docs/datasets.md",
+      "sha256": "167f4d8f7af128808e9b6dc29322a3b040e41071c54f4c26060781ee3946e72f",
+      "size": 4841,
+      "replaced": true
+    },
+    {
+      "path": "docs/intel_berkeley.md",
+      "sha256": "a9a9b84594638919634b210c480cf742cf48e0eecc004686e3190f327f06338a",
+      "size": 3388,
+      "replaced": true
+    },
+    {
+      "path": "docs/perception.md",
+      "sha256": "8c6216c71e6530fbf072a3838402209d588c587784bdf1cae73e71d66cdc976b",
+      "size": 3360,
+      "replaced": true
+    },
+    {
+      "path": "docs/prbtd.md",
+      "sha256": "8ef18b3d7963761ebb206dc3d29763c5d8a7ec923937bf5165529fa2a928f2c5",
+      "size": 3409,
+      "replaced": true
+    },
+    {
+      "path": "docs/taxibj.md",
+      "sha256": "83743e852908fe0f524cebd15ee8bf22a19e9a8c3782e99705b08009c5d650ba",
+      "size": 3810,
+      "replaced": true
+    },
+    {
+      "path": "docs/tsadc.md",
+      "sha256": "2468a74c417cef62ccc021a218ca1ec82449fdcfe7b3f3a4ca02e9f14a1cbe36",
+      "size": 3115,
+      "replaced": true
+    },
+    {
+      "path": "environment/pytest-condition-validation.txt",
+      "sha256": "27d9f48ccb1fbfa6c5beaf646dfb6eefa7280a9ade38a1f87271ec23fc4ecde2",
+      "size": 1012,
+      "replaced": false
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f1c14774a8520d1680ea2b1acb1efc3d18dcd946f3a14c97509c6c122ef10e0c",
+      "size": 910,
+      "replaced": true
+    },
+    {
+      "path": "runs/method_comparison_20261113/benchmark_status.json",
+      "sha256": "ae7a0286cd5005564b804c5200321c4437f2ca6a3952cc6c0f8125bf6858f09e",
+      "size": 122930,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/calibration.json",
+      "sha256": "378da9e7a6cfe8cc85a22204f8bea23826c8c5d6a49449ab0ab60c8fd0696376",
+      "size": 1068,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/calibration_audit.csv",
+      "sha256": "af1fa0921bc0373af45398574e92cd99b223ce5b4cdcd39c768f3c9eed800c0b",
+      "size": 826,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/calibration_scores.csv",
+      "sha256": "96b7d12b6ffa2f79a8c87164a06ddcd4fac6d70753772fe9e1351b368676e04a",
+      "size": 13844,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/checkpoint.pt",
+      "sha256": "f38a4574d49adc9e87fb7c0eb0b8052076643d6da4b60a005404b99b3b6ee205",
+      "size": 10146,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/config.resolved.yaml",
+      "sha256": "056801bc99bffed6ecb090735767b25cdaf924525d4220a5fc0f57297c3f7aa5",
+      "size": 1987,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/history.json",
+      "sha256": "4b8878362d54dd954d3dc0fbb6b1077b731353fe0d11b383fa6bbd4c0d1a22c9",
+      "size": 2138,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/metrics.json",
+      "sha256": "8949619fa6c2f3f8f08d0371ae0c0c2df9b66fbc5a3404f5056293a3fe5aaca7",
+      "size": 15361,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/native_environment.csv",
+      "sha256": "99d3265428ab7622746a9cfd418f403ab013b21d79dbb3353ca0b6bb1fe727be",
+      "size": 2782,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/predictions.csv",
+      "sha256": "b5b1ebb1aed60587266231286d66bcb584918254781f75e02dbaa6e0c7fa2f9b",
+      "size": 28013,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/reputation.csv",
+      "sha256": "5722cd59d9555996b66e4942dfb10d1a53af37cc36b0aff25c8bb0924e43c17d",
+      "size": 11271,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/runtime.json",
+      "sha256": "cbfb85833bb1c856a6667dfe02971675b701dd1fa4a84e2fbd245ef595ff017c",
+      "size": 149,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/split_manifest.json",
+      "sha256": "f0c26181b64d7a026a3c4a05637a9ae7badafdc4ca683d6340160a0f5b84b862",
+      "size": 38539,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/splits/calibration.csv",
+      "sha256": "23bcac1acb14795ac47eded90d385b7b6c7994b4c9b3402f2c3bbd07febabef7",
+      "size": 11635,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/splits/test.csv",
+      "sha256": "7331146c5eea2f71580db785bdeaff047fda086a72820ea112bfa1a732e7818c",
+      "size": 32430,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/splits/train.csv",
+      "sha256": "006da81cd54c46ba274d1c22dbd3669f673f1e70d09d10239059947f363b58ec",
+      "size": 70707,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/splits/validation.csv",
+      "sha256": "abce0bd1c11e7ba459171f21fc6eeed7c4072e60d6bd625dbd5fef564859db3c",
+      "size": 33986,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/condition_alignment/42/unassessed_reports.csv",
+      "sha256": "cb494b3b83c4bb7d0ccd5784270a973ba60cbacc35da4c4422f41510f7b1ccf7",
+      "size": 14766,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/calibration.json",
+      "sha256": "cc822215ae26a712bca9b0cb18d0597e99d2cd2750a90aaf3f06b0f903b42dfd",
+      "size": 181,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/calibration_scores.csv",
+      "sha256": "318dd547fb8c1c4eecfb38e693911cfe868f54fcb61070d7cb7e4ddd8ad59092",
+      "size": 6986,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/checkpoint.pt",
+      "sha256": "0a80e9870efb18a425da60d3b21f4eda25377173b87454a6d47e5cb2d75a52ad",
+      "size": 304362,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/config.resolved.yaml",
+      "sha256": "dd4872a957e60ff9fcdb2d6060c0714de80fd713de0f1c1f4ac901652be9fa00",
+      "size": 1973,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/history.json",
+      "sha256": "a73bc35f5c1c1d67fc0934a443d5babd9ed1ec6a6433019577e95fa2fced9a47",
+      "size": 2105,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/metrics.json",
+      "sha256": "5ef2ec60db2ef47e2acf30c864a8032923de3d03d49d9d8540a8c4b8438f9a5e",
+      "size": 15610,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/predictions.csv",
+      "sha256": "dbeccc3d37fbd664dc05b473b6de94ead273564ea835ea9cfb3f0707ca5524ac",
+      "size": 23101,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/reputation.csv",
+      "sha256": "106610c657822199dd7211a40dddcafe1f5ff9f62ae7d50da1dad2cd3900e145",
+      "size": 6377,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/runtime.json",
+      "sha256": "a3252cb17ffa1292f8f3b8d0bf03d2c85e0d6aa22d4237499d9404acdf48480e",
+      "size": 178,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/split_manifest.json",
+      "sha256": "df9e3a9b29dea97d73b3c27736ecf44e25bbe5fdd239606803d9f272b9e5bb14",
+      "size": 38207,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/splits/calibration.csv",
+      "sha256": "23bcac1acb14795ac47eded90d385b7b6c7994b4c9b3402f2c3bbd07febabef7",
+      "size": 11635,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/splits/test.csv",
+      "sha256": "7331146c5eea2f71580db785bdeaff047fda086a72820ea112bfa1a732e7818c",
+      "size": 32430,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/splits/train.csv",
+      "sha256": "006da81cd54c46ba274d1c22dbd3669f673f1e70d09d10239059947f363b58ec",
+      "size": 70707,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/prbtd/42/splits/validation.csv",
+      "sha256": "abce0bd1c11e7ba459171f21fc6eeed7c4072e60d6bd625dbd5fef564859db3c",
+      "size": 33986,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/calibration.json",
+      "sha256": "7a5d76e1030e16ada5796f07cc920550a746a7834df3f3651c380b2ebbfd3034",
+      "size": 180,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/calibration_scores.csv",
+      "sha256": "1128e57d7cf066d0e68bb555177be4cdce86e036a5b67be4fb5a11bc9eb5bcb7",
+      "size": 5944,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/checkpoint.pt",
+      "sha256": "342d9d07ab048ac73cd434c777897e2f44e899c9364e53abff58f23ea594eacd",
+      "size": 446243,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/config.resolved.yaml",
+      "sha256": "fd1051e324e14dcc46fd6b10351ec357a8dd6f5cd7c0f1b9cedcd12b103243e5",
+      "size": 1973,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/history.json",
+      "sha256": "404f3693a600f02f2a3d68988adf2fdd1abf1bd5b97958d0db10ff95cafcf4e6",
+      "size": 1990,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/metrics.json",
+      "sha256": "6ef08b7c8a725799108b4cb6ec098bf17c3958f1ed82aa11d89023763c0cc198",
+      "size": 15531,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/predictions.csv",
+      "sha256": "b2b22160621346e93e8430248ed2b903b602c03445448a4a7fd2420092792f93",
+      "size": 19487,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/runtime.json",
+      "sha256": "b228cbc666537082f70135928bb835e570afb60855622f0b34cfa4ec8c62144a",
+      "size": 178,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/split_manifest.json",
+      "sha256": "df9e3a9b29dea97d73b3c27736ecf44e25bbe5fdd239606803d9f272b9e5bb14",
+      "size": 38207,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/splits/calibration.csv",
+      "sha256": "23bcac1acb14795ac47eded90d385b7b6c7994b4c9b3402f2c3bbd07febabef7",
+      "size": 11635,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/splits/test.csv",
+      "sha256": "7331146c5eea2f71580db785bdeaff047fda086a72820ea112bfa1a732e7818c",
+      "size": 32430,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/splits/train.csv",
+      "sha256": "006da81cd54c46ba274d1c22dbd3669f673f1e70d09d10239059947f363b58ec",
+      "size": 70707,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/crowd_temperature/tsadc/42/splits/validation.csv",
+      "sha256": "abce0bd1c11e7ba459171f21fc6eeed7c4072e60d6bd625dbd5fef564859db3c",
+      "size": 33986,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/calibration.json",
+      "sha256": "15d1f7aa109e76134270fe2d8dc1ccf8576e1b82ce18ab302dcc7f6718f97d56",
+      "size": 1580,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/calibration_audit.csv",
+      "sha256": "d1768b19354a13f985619c09c1ba3ad06c4a499aa61c6bd8df0f34b68ac5872a",
+      "size": 53245,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/calibration_scores.csv",
+      "sha256": "76cd5107d145b2195018f81e4158e7780365bd895b84aa8d3b36274bdb4133dd",
+      "size": 799683,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/checkpoint.pt",
+      "sha256": "e19cd7015df875ef0ee38ec124d3d45f9a0440cf4bf507dd08aa82d32ab1a12c",
+      "size": 10402,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/config.resolved.yaml",
+      "sha256": "b263523ca86489a89c91478664406316272c8525d183a067c9d8a3f8dcc57ab2",
+      "size": 2121,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/history.json",
+      "sha256": "57ef94afa6e4710ac2fb971ead3028c45f537aece1544027d64e96a0be592516",
+      "size": 647,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/metrics.json",
+      "sha256": "ec8f1fb1e56a0be2fe23cc952e7824f76a84d7e2276659b78e2402bbec6bfd06",
+      "size": 9391,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/native_environment.csv",
+      "sha256": "8de8224c62bc49dc50ec45ac7bfb8a17da046fb7d53a061d241e5efbbebd698b",
+      "size": 351397,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/predictions.csv",
+      "sha256": "7d4212460edd6f5dc0d3aaba9b6370e63d4d87039c6ca9cf06f6f501b6bef2a7",
+      "size": 1854004,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/query_estimates.csv",
+      "sha256": "d6917850f755a464cf1dc50a4dacfa557579416f36187ac505f6903fa9abe48a",
+      "size": 330286,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/reputation.csv",
+      "sha256": "fed0846c3fe007c0b81020af8bffe54edb984a095557599d71f9fa7f2a479f90",
+      "size": 901714,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/runtime.json",
+      "sha256": "d7e86e5d234dc198f09a746c1e43cb06e395d20d1fce14faf1a737b98019f0c0",
+      "size": 148,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/split_manifest.json",
+      "sha256": "6043a9a8f916744e5f222fe5f27ba9c3bc5e67899724995fe2a882adf5dee1e2",
+      "size": 41595,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/splits/calibration.csv",
+      "sha256": "f557af71228ff63cd759565c9a5edb7bd457c4d2f6b37c9c70f73b69fba2319d",
+      "size": 596281,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/splits/test.csv",
+      "sha256": "74ac6648e7583ef132c7efb8f22c3687987fd6c61b65b5129c537466b5eba833",
+      "size": 1198972,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/splits/train.csv",
+      "sha256": "e43a2680f4adc8c76042951ba8f0fa396f69d023b32b09d80f1a2bffaf9ec464",
+      "size": 2375314,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/splits/validation.csv",
+      "sha256": "5ebbcae6fa93acc14cb51d4505a5d22e651036e4ab4de41ffa0f4a09e6f8a8e9",
+      "size": 596547,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/condition_alignment/42/unassessed_reports.csv",
+      "sha256": "9304fdf1d8583d08db9516c12b158691be7630b8427549aa74e75dd580e2ce78",
+      "size": 46088,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/calibration.json",
+      "sha256": "7a6739e3f6ee8913d11f2807635bc6dc012cc02094af2cc938b5585bb12278cf",
+      "size": 183,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/calibration_scores.csv",
+      "sha256": "c96b8d7cc39b7339f5c2eaf268219c5b856fc7400fbaa8ba0802572a16745381",
+      "size": 758149,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/checkpoint.pt",
+      "sha256": "95d144102c7733abcb65c0484199731315faa331baee6832128a0d6fdda0ace7",
+      "size": 674602,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/config.resolved.yaml",
+      "sha256": "a321d2c5fc0aed3f7f27acf999bdf90f464d59d6b62bd51d81dbf9e300c814ef",
+      "size": 2107,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/history.json",
+      "sha256": "7423e2bd466db5f409c25232ac6bbdd1132efa2706d478260b3e0af4e75168cc",
+      "size": 2137,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/metrics.json",
+      "sha256": "7c44f79e7f25e1b3d1906ddc6e651ab9bca3781837353d607ea73e961f9b1e24",
+      "size": 8533,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/predictions.csv",
+      "sha256": "2caae77bd0b5f9ddb99c8850628d996515273a6e5d7d2626ef5bceda2de4224b",
+      "size": 1534563,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/query_estimates.csv",
+      "sha256": "5cca3ae8d4314876f73544e7dfb06b7885837a88b8ab3d3336927672b6e49e37",
+      "size": 330240,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/reputation.csv",
+      "sha256": "ed80235b9f6309dfafe18d2f6d2282a65b521c8d24d6e079b92ebbfbe3c055ae",
+      "size": 573428,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/runtime.json",
+      "sha256": "745ab9488d5484a1a3952f22e21b9661ed48b4bab7725d1d208b61225d336406",
+      "size": 176,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/split_manifest.json",
+      "sha256": "b7c2e7356a34a88ab0e883acbded3550bfadc7f68aadb1e51c951b7ff34a9255",
+      "size": 41277,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/splits/calibration.csv",
+      "sha256": "f557af71228ff63cd759565c9a5edb7bd457c4d2f6b37c9c70f73b69fba2319d",
+      "size": 596281,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/splits/test.csv",
+      "sha256": "74ac6648e7583ef132c7efb8f22c3687987fd6c61b65b5129c537466b5eba833",
+      "size": 1198972,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/splits/train.csv",
+      "sha256": "e43a2680f4adc8c76042951ba8f0fa396f69d023b32b09d80f1a2bffaf9ec464",
+      "size": 2375314,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/prbtd/42/splits/validation.csv",
+      "sha256": "5ebbcae6fa93acc14cb51d4505a5d22e651036e4ab4de41ffa0f4a09e6f8a8e9",
+      "size": 596547,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/calibration.json",
+      "sha256": "a37027c2004896d2489d1d864ac7d42b5bce1836d2a29028e918c7553196ca02",
+      "size": 184,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/calibration_scores.csv",
+      "sha256": "d0715bf7931e827afb34976ed090e18040533025d1df3759a0d886988cbef71e",
+      "size": 618462,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/checkpoint.pt",
+      "sha256": "4d909f595c8a8c98acb6a691fb4e5b2ec2c053ac72fb2cbde147dc039881da6a",
+      "size": 399843,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/config.resolved.yaml",
+      "sha256": "0ee11cc888a7a508812a190a68143f07c0dff37decb5005664e001da8fb20626",
+      "size": 2107,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/history.json",
+      "sha256": "7748f57c330279a1f16c06ad760f58e9a194e34f4725cd5fb9970f0f1fe3b2b7",
+      "size": 2106,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/metrics.json",
+      "sha256": "c786c99fb7c0502640cc5df255dc0a083692c785eb63594dc58a1d6d50087c8e",
+      "size": 9018,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/predictions.csv",
+      "sha256": "151dc64349803c73f40b26f4606fde5f182663f81aeb23fe491a452c2cc03f14",
+      "size": 1251286,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/query_estimates.csv",
+      "sha256": "d69d0c58a195438db1be798a3c1e1ba3b170b84fbaaca589a929a96b9cf33340",
+      "size": 329980,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/runtime.json",
+      "sha256": "bc8cfcca7a425c0c0f0e0a8085806d8d90a54c9c646ae9fd29e92d06c9526125",
+      "size": 176,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/split_manifest.json",
+      "sha256": "b7c2e7356a34a88ab0e883acbded3550bfadc7f68aadb1e51c951b7ff34a9255",
+      "size": 41277,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/splits/calibration.csv",
+      "sha256": "f557af71228ff63cd759565c9a5edb7bd457c4d2f6b37c9c70f73b69fba2319d",
+      "size": 596281,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/splits/test.csv",
+      "sha256": "74ac6648e7583ef132c7efb8f22c3687987fd6c61b65b5129c537466b5eba833",
+      "size": 1198972,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/splits/train.csv",
+      "sha256": "e43a2680f4adc8c76042951ba8f0fa396f69d023b32b09d80f1a2bffaf9ec464",
+      "size": 2375314,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/intel_berkeley/tsadc/42/splits/validation.csv",
+      "sha256": "5ebbcae6fa93acc14cb51d4505a5d22e651036e4ab4de41ffa0f4a09e6f8a8e9",
+      "size": 596547,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/calibration.json",
+      "sha256": "1e24e20bcbcc14a75a55ca37127e6a0ebf92ac778955b910dc1f450369cf863b",
+      "size": 1589,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/calibration_audit.csv",
+      "sha256": "dc42d83d877aa0c41693c833434cb4f833bc96ad198bfe1fca7f344011d1c781",
+      "size": 31671,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/calibration_scores.csv",
+      "sha256": "f4c5c5cbcab9d8a5f59e504f4f1d5d6eca8c6f72e3c1b94952d1fefca38efbb4",
+      "size": 455078,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/checkpoint.pt",
+      "sha256": "6190140f06b67e7c25e18774c118aeef0ea09017723a13bfebe58acd3a739e7c",
+      "size": 11106,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/config.resolved.yaml",
+      "sha256": "abbc8f7df1eec3b7d0fa50efacb5b238f40cd3999c15b3cf420496ca35f4eb37",
+      "size": 2054,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/environment_estimates.csv",
+      "sha256": "2546d27c0fdf68ed27cd5780e516247741eef4a7fd31a88393fb6f627f89a7d2",
+      "size": 35685,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/history.json",
+      "sha256": "795042f969f03814585a23c7cf6badc1a95f98d1fa9c0078a946f3b1932767bb",
+      "size": 652,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/metrics.json",
+      "sha256": "7d959b40161697d9b95780f3efc3efd4f9a48643f76fa51c253ab4589b21e44c",
+      "size": 9563,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/native_environment.csv",
+      "sha256": "f08334341a2dc91528203c36d884e386bb93d6a981d8de84695c19b3c79168f5",
+      "size": 64836,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/predictions.csv",
+      "sha256": "d784309194ba597ee53be3d75eb527959c709f40bb6deb370a0dde116eba8d76",
+      "size": 1017093,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/reputation.csv",
+      "sha256": "1efa948795427437f457b4c2344a004476a15db0d169ba5b8e77db0cb923e71e",
+      "size": 470881,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/runtime.json",
+      "sha256": "3f2e931f051893d5b02a50d6b5ea09d3d755ca29c975c6cb9a83874f17532efc",
+      "size": 149,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/split_manifest.json",
+      "sha256": "098d7a173db6c49f46a9a25e0fc09e17fc57e938d6835db26d54378c4197bf05",
+      "size": 186399,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/splits/calibration.csv",
+      "sha256": "9cabef2e8eb4607bb0aa363bdae22c227357b0ffa188e27203df54b24d07bc32",
+      "size": 353993,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/splits/test.csv",
+      "sha256": "9dd57c3857576239f3a7bf73d28b9dd7a91423f7f2c2255e2aae9f1495e57835",
+      "size": 699359,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/splits/train.csv",
+      "sha256": "e25778adc427b67a9286b8039c0c04431d2d097bb0278e3c6d00ac445cd443e3",
+      "size": 1406994,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/splits/validation.csv",
+      "sha256": "3718bce6d8f1830bb163ab675cc422ce0af5633837aa2bbb69ea3524d6e70cdd",
+      "size": 353713,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/condition_alignment/42/unassessed_reports.csv",
+      "sha256": "7cf3a8f15aff877c82ffe48e31f863a1ccc2cacf332eb7d69efd6b91c3db7586",
+      "size": 50087,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/calibration.json",
+      "sha256": "a3fb1be47861454ce98cb9d8240877aeea6b12d219208d52b65fa224d1817a70",
+      "size": 184,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/calibration_scores.csv",
+      "sha256": "fe1a07c3ba6a3651e1e7f2636b638eeb50c2533853469a67473622103a622b21",
+      "size": 392548,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/checkpoint.pt",
+      "sha256": "aba4a1fa13dc6d53227322b714a7889c6068890883fcb04feebd3119d588daa1",
+      "size": 506666,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/config.resolved.yaml",
+      "sha256": "62da6d133b0bbae829a6037b054236592cdc92882a827b06544f9aea39b84195",
+      "size": 2040,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/environment_estimates.csv",
+      "sha256": "f42a76f82810aba6de691cdc023c25b8553dd5010fc52d2b058cf40dc5868f52",
+      "size": 35688,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/history.json",
+      "sha256": "bdad183124d882891e5b3c6a4c69bf1fd1a93f8c65fe27d482c5a21bc36573ba",
+      "size": 2126,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/metrics.json",
+      "sha256": "88595570fb3c02d29535c37c84b62f317389e5130034f3378b89fc4486b92881",
+      "size": 9081,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/predictions.csv",
+      "sha256": "a419faef379ecdd07e9da4611140d5eb3ad5f28f86cfb6b660e63d9bddcc0b2d",
+      "size": 841761,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/reputation.csv",
+      "sha256": "723d2e24a01881c575fe3246b8c0ff7ef5200b39800cd2eb166d78b4a572a6b1",
+      "size": 292989,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/runtime.json",
+      "sha256": "9839c368adaa1c9c2cb7a5a71d6cb24ef1de33f5d4ffd074efb05d3e96df3d13",
+      "size": 176,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/split_manifest.json",
+      "sha256": "be4758e83816cf710a777704c444e39611816cd09c0aae4b981f8e1c8300d044",
+      "size": 185913,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/splits/calibration.csv",
+      "sha256": "9cabef2e8eb4607bb0aa363bdae22c227357b0ffa188e27203df54b24d07bc32",
+      "size": 353993,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/splits/test.csv",
+      "sha256": "9dd57c3857576239f3a7bf73d28b9dd7a91423f7f2c2255e2aae9f1495e57835",
+      "size": 699359,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/splits/train.csv",
+      "sha256": "e25778adc427b67a9286b8039c0c04431d2d097bb0278e3c6d00ac445cd443e3",
+      "size": 1406994,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/prbtd/42/splits/validation.csv",
+      "sha256": "3718bce6d8f1830bb163ab675cc422ce0af5633837aa2bbb69ea3524d6e70cdd",
+      "size": 353713,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/calibration.json",
+      "sha256": "e557fc2a33dafd320eb8aa0caa552cd6b8e7e873505682ade9af5425cf15ae99",
+      "size": 183,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/calibration_scores.csv",
+      "sha256": "843ad26a8d34eee65afe51a218bdfe6541423e2a5dafa5cbd5846507edd90d86",
+      "size": 326329,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/checkpoint.pt",
+      "sha256": "f4ff12f646df68efc22f016321c1568763d8cc816567cc46f8db3e353dc001cf",
+      "size": 399715,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/config.resolved.yaml",
+      "sha256": "a1b4606b4632833f81b8eae92ae17ef9e006a18db43a7eddf46b0e79a092479a",
+      "size": 2040,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/environment_estimates.csv",
+      "sha256": "bcfd0762a8b192bd5f322b81eed399a77409b745676bf17fc635ae9075e18d78",
+      "size": 35705,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/history.json",
+      "sha256": "dae8582a155bb097f80bff346476d3bf8b26f414bd9ed6b222840c648ac0ea7a",
+      "size": 2104,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/metrics.json",
+      "sha256": "7f5673d79b9d1a51ccc6df5d10689c42a70f901b4b9b0b3510097826563a08f9",
+      "size": 9220,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/predictions.csv",
+      "sha256": "946a5344ab3e1ac00b879796338b2a3b327067c2c5901694dba689115fac8ad7",
+      "size": 699940,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/runtime.json",
+      "sha256": "b65f37afd284c533ffeeb3d3e05958d48bda997ebcde2a4d10f90bc187c38f38",
+      "size": 175,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/split_manifest.json",
+      "sha256": "be4758e83816cf710a777704c444e39611816cd09c0aae4b981f8e1c8300d044",
+      "size": 185913,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/splits/calibration.csv",
+      "sha256": "9cabef2e8eb4607bb0aa363bdae22c227357b0ffa188e27203df54b24d07bc32",
+      "size": 353993,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/splits/test.csv",
+      "sha256": "9dd57c3857576239f3a7bf73d28b9dd7a91423f7f2c2255e2aae9f1495e57835",
+      "size": 699359,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/splits/train.csv",
+      "sha256": "e25778adc427b67a9286b8039c0c04431d2d097bb0278e3c6d00ac445cd443e3",
+      "size": 1406994,
+      "replaced": false
+    },
+    {
+      "path": "runs/method_comparison_20261113/taxibj/tsadc/42/splits/validation.csv",
+      "sha256": "3718bce6d8f1830bb163ab675cc422ce0af5633837aa2bbb69ea3524d6e70cdd",
+      "size": 353713,
+      "replaced": false
+    },
+    {
+      "path": "scripts/run_report_benchmarks.py",
+      "sha256": "f53f8c87362384db7fa4edafe6273c5b0f210c3a223b9bf4ef790cdbd31c7c0f",
+      "size": 5310,
+      "replaced": true
+    },
+    {
+      "path": "tests/test_condition_alignment.py",
+      "sha256": "efba8db1b624bbea85a58821c608387aec3dfdb50b02c3def34b1a43d2b44e65",
+      "size": 9966,
+      "replaced": false
+    },
+    {
+      "path": "tests/test_condition_pipeline.py",
+      "sha256": "dc57b6469d3de5683bf1254823530920b1f2323ff61c45caf78fc703d29c471d",
+      "size": 17240,
+      "replaced": false
+    },
+    {
+      "path": "tests/test_label_trim.py",
+      "sha256": "26d65bb26d2c662b3edc4277fabe5652137d8e7a353eb5d1b4c9d89912954fca",
+      "size": 9374,
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/calibration.py",
+      "sha256": "1e0c3c1057df47a5cc02409e0040abe858d44d179d2f5b75268322ad57c26bc6",
+      "size": 13003,
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/cli.py",
+      "sha256": "d9fcd10de113883f0208efccbf24260464b60d47283a238c674beb4a4abf6320",
+      "size": 4963,
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/condition_data.py",
+      "sha256": "e4b94abc0ae4163abfdadbaa1554dd92f66eed9cdf7a6429d52f846ff8942ee0",
+      "size": 3221,
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/condition_experiment.py",
+      "sha256": "b32942773d4aab637e6b74a0a993326cea1f56b2ff1700cb53022cb3974e790f",
+      "size": 13547,
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/condition_runtime.py",
+      "sha256": "ee0929d2e24cf539ebabd75fe6293592a7b326301148de8744d26c9861389ee5",
+      "size": 9992,
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/evaluation.py",
+      "sha256": "b2acbf336baaacc674354c76a1b911bbb9eeb8feae3c2b61ffa024fcb4e412ce",
+      "size": 7602,
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/experiment.py",
+      "sha256": "392a2a3967397a2d597db2dab9ee69f0924390eaa679b08fe194c07d0a73ac37",
+      "size": 18526,
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/metrics.py",
+      "sha256": "b7ab68a9dcb1792d99e6ce60af71bddc4210360b657ef8c550d3b273767726bc",
+      "size": 3291,
+      "replaced": true
+    },
+    {
+      "path": "uav_abnormality/models/condition_alignment.py",
+      "sha256": "bfa347c43cfd2f9091b52700319784312c6c28e2ef0f2a72b55f315fc00a3ec4",
+      "size": 12879,
+      "replaced": false
+    },
+    {
+      "path": "uav_abnormality/protocol.py",
+      "sha256": "a55191b5021f37b8dd9885d75f74c721ea115b5880043f93b703321c757b497d",
+      "size": 6201,
+      "replaced": true
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "0": {
+    "train": {
+      "reports": 1243,
+      "time_slots": 75,
+      "eligible_windows": 162,
+      "common_scoreable_reports": 1042,
+      "injected_reports": 133,
+      "common_scoreable_attacks": 133,
+      "feasible_events": 6,
+      "attempted_events": 20
+    },
+    "validation": {
+      "reports": 265,
+      "time_slots": 19,
+      "eligible_windows": 30,
+      "common_scoreable_reports": 186,
+      "injected_reports": 17,
+      "common_scoreable_attacks": 17,
+      "feasible_events": 5,
+      "attempted_events": 9
+    },
+    "calibration": {
+      "reports": 886,
+      "time_slots": 57,
+      "eligible_windows": 97,
+      "common_scoreable_reports": 731,
+      "injected_reports": 69,
+      "common_scoreable_attacks": 69,
+      "candidate_calibration_units": 160,
+      "available_calibration_units": 51,
+      "worst_case_retained_units": 49,
+      "worst_case_min_p": 0.02,
+      "feasible_events": 9,
+      "attempted_events": 20
+    },
+    "test": {
+      "reports": 712,
+      "time_slots": 38,
+      "eligible_windows": 93,
+      "common_scoreable_reports": 630,
+      "injected_reports": 63,
+      "common_scoreable_attacks": 63,
+      "feasible_events": 3,
+      "attempted_events": 11
+    }
+  },
+  "42": {
+    "train": {
+      "reports": 1243,
+      "time_slots": 75,
+      "eligible_windows": 162,
+      "common_scoreable_reports": 1042,
+      "injected_reports": 135,
+      "common_scoreable_attacks": 135,
+      "feasible_events": 7,
+      "attempted_events": 20
+    },
+    "validation": {
+      "reports": 265,
+      "time_slots": 19,
+      "eligible_windows": 30,
+      "common_scoreable_reports": 186,
+      "injected_reports": 18,
+      "common_scoreable_attacks": 18,
+      "feasible_events": 4,
+      "attempted_events": 9
+    },
+    "calibration": {
+      "reports": 886,
+      "time_slots": 57,
+      "eligible_windows": 97,
+      "common_scoreable_reports": 731,
+      "injected_reports": 67,
+      "common_scoreable_attacks": 67,
+      "candidate_calibration_units": 160,
+      "available_calibration_units": 51,
+      "worst_case_retained_units": 49,
+      "worst_case_min_p": 0.02,
+      "feasible_events": 9,
+      "attempted_events": 20
+    },
+    "test": {
+      "reports": 712,
+      "time_slots": 38,
+      "eligible_windows": 93,
+      "common_scoreable_reports": 630,
+      "injected_reports": 63,
+      "common_scoreable_attacks": 63,
+      "feasible_events": 4,
+      "attempted_events": 11
+    }
+  },
+  "46": {
+    "train": {
+      "reports": 1243,
+      "time_slots": 75,
+      "eligible_windows": 162,
+      "common_scoreable_reports": 1042,
+      "injected_reports": 136,
+      "common_scoreable_attacks": 136,
+      "feasible_events": 8,
+      "attempted_events": 20
+    },
+    "validation": {
+      "reports": 265,
+      "time_slots": 19,
+      "eligible_windows": 30,
+      "common_scoreable_reports": 186,
+      "injected_reports": 18,
+      "common_scoreable_attacks": 18,
+      "feasible_events": 4,
+      "attempted_events": 9
+    },
+    "calibration": {
+      "reports": 886,
+      "time_slots": 57,
+      "eligible_windows": 97,
+      "common_scoreable_reports": 731,
+      "injected_reports": 84,
+      "common_scoreable_attacks": 84,
+      "candidate_calibration_units": 160,
+      "available_calibration_units": 51,
+      "worst_case_retained_units": 49,
+      "worst_case_min_p": 0.02,
+      "feasible_events": 5,
+      "attempted_events": 20
+    },
+    "test": {
+      "reports": 712,
+      "time_slots": 38,
+      "eligible_windows": 93,
+      "common_scoreable_reports": 630,
+      "injected_reports": 63,
+      "common_scoreable_attacks": 63,
+      "feasible_events": 3,
+      "attempted_events": 11
+    }
+  },
+  "47": {
+    "train": {
+      "reports": 1243,
+      "time_slots": 75,
+      "eligible_windows": 162,
+      "common_scoreable_reports": 1042,
+      "injected_reports": 135,
+      "common_scoreable_attacks": 135,
+      "feasible_events": 6,
+      "attempted_events": 20
+    },
+    "validation": {
+      "reports": 265,
+      "time_slots": 19,
+      "eligible_windows": 30,
+      "common_scoreable_reports": 186,
+      "injected_reports": 17,
+      "common_scoreable_attacks": 17,
+      "feasible_events": 4,
+      "attempted_events": 9
+    },
+    "calibration": {
+      "reports": 886,
+      "time_slots": 57,
+      "eligible_windows": 97,
+      "common_scoreable_reports": 731,
+      "injected_reports": 84,
+      "common_scoreable_attacks": 84,
+      "candidate_calibration_units": 160,
+      "available_calibration_units": 51,
+      "worst_case_retained_units": 49,
+      "worst_case_min_p": 0.02,
+      "feasible_events": 5,
+      "attempted_events": 20
+    },
+    "test": {
+      "reports": 712,
+      "time_slots": 38,
+      "eligible_windows": 93,
+      "common_scoreable_reports": 630,
+      "injected_reports": 39,
+      "common_scoreable_attacks": 39,
+      "feasible_events": 4,
+      "attempted_events": 11
+    }
+  },
+  "1024": {
+    "train": {
+      "reports": 1243,
+      "time_slots": 75,
+      "eligible_windows": 162,
+      "common_scoreable_reports": 1042,
+      "injected_reports": 132,
+      "common_scoreable_attacks": 132,
+      "feasible_events": 7,
+      "attempted_events": 20
+    },
+    "validation": {
+      "reports": 265,
+      "time_slots": 19,
+      "eligible_windows": 30,
+      "common_scoreable_reports": 186,
+      "injected_reports": 17,
+      "common_scoreable_attacks": 17,
+      "feasible_events": 5,
+      "attempted_events": 9
+    },
+    "calibration": {
+      "reports": 886,
+      "time_slots": 57,
+      "eligible_windows": 97,
+      "common_scoreable_reports": 731,
+      "injected_reports": 85,
+      "common_scoreable_attacks": 85,
+      "candidate_calibration_units": 160,
+      "available_calibration_units": 51,
+      "worst_case_retained_units": 49,
+      "worst_case_min_p": 0.02,
+      "feasible_events": 5,
+      "attempted_events": 20
+    },
+    "test": {
+      "reports": 712,
+      "time_slots": 38,
+      "eligible_windows": 93,
+      "common_scoreable_reports": 630,
+      "injected_reports": 36,
+      "common_scoreable_attacks": 36,
+      "feasible_events": 4,
+      "attempted_events": 11
+    }
+  }
+}

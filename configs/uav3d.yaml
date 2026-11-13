@@ -1,0 +1,25 @@
+algorithm: prbtd
+seed: 42
+data:
+  path: data/processed/uav3d.csv
+split:
+  mode: sequence
+  ratios:
+  - 0.6
+  - 0.15
+  - 0.1
+  - 0.15
+window:
+  window_size: 8
+  min_sources: 3
+  max_gap_seconds: 5.0
+training:
+  device: auto
+  threads: 2
+  epochs: 30
+  patience: 5
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0
+calibration:
+  alpha: 0.05

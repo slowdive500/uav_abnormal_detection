@@ -1,0 +1,388 @@
+{
+  "status": "passed",
+  "scope": "independent CSV joins and NumPy mean/sample-SD recomputation; no comparison-module imports",
+  "comparison_root": "runs/no_attacks_5seeds_20261113/comparison",
+  "completion": {
+    "expected": 45,
+    "valid": 45,
+    "invalid": 0,
+    "missing": 0
+  },
+  "aggregate_checks": {
+    "groups": 9,
+    "metrics_per_group": 33,
+    "statistics_per_metric": [
+      "mean",
+      "std_ddof1",
+      "n"
+    ],
+    "checked_outputs": [
+      "summary.json",
+      "summary.csv"
+    ],
+    "paired_differences_verified": true
+  },
+  "raw_artifact_checks": {
+    "fpr_pairs": 45,
+    "crowd_fpr_pairs": 15,
+    "environment_channel_pairs": 40,
+    "mae_support": "same query/task output identities with two finite estimates and equal references",
+    "coverage_denominator": "all test rounds or test-round query rows, including warmup",
+    "natural_background": "unchanged protocol-normal reports scored by both arms; natural anomalies not certified absent"
+  },
+  "numerical_agreement": {
+    "numeric_checks": 3287,
+    "null_checks": 646,
+    "maximum_absolute_difference": 2.220446049250313e-16
+  },
+  "fpr_background_count_ranges": {
+    "crowd_temperature": [
+      567,
+      594
+    ],
+    "intel_berkeley": [
+      4289,
+      4307
+    ],
+    "taxibj": [
+      2197,
+      2239
+    ]
+  },
+  "environment_support_ranges": {
+    "taxibj": {
+      "full_test_outputs": [
+        384
+      ],
+      "matched_outputs": [
+        339,
+        356
+      ]
+    },
+    "intel_berkeley": {
+      "full_test_outputs": [
+        1152
+      ],
+      "matched_outputs": [
+        1048,
+        1108
+      ]
+    }
+  },
+  "source_sha256": {
+    "per_seed.csv": "67ce0d09667e0528659cb2b3472e951e3c5298a3a26c1729a6feea4ec15cdf98",
+    "summary.csv": "438892ebbeb2f050d0b170cbec82de3880beacdc478f55fcb8690e25cb726c34",
+    "summary.json": "a04e1f5800ccbbdf5fae451de6fb20fd1480dd42bbea62ea8f292afa792234e3"
+  },
+  "results": [
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "condition_alignment",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.02461908587120093,
+          "std": 0.0021090013463844503,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.03979347092714267,
+          "std": 0.01584414745244972,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": 0.01517438505594174,
+          "std": 0.017320991381802982,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "prbtd",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.04791725163975587,
+          "std": 0.02436654188369361,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.04768252991603245,
+          "std": 0.018848465441184216,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": -0.00023472172372341615,
+          "std": 0.022885420246064107,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "crowd_temperature",
+      "algorithm": "tsadc",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.05113417634568227,
+          "std": 0.011989679753455435,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.0497518900226176,
+          "std": 0.012199580863748961,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": -0.0013822863230646659,
+          "std": 0.0018934508999743928,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "condition_alignment",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.11654452956875161,
+          "std": 0.005354362698552668,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.11937725761920959,
+          "std": 0.008385157973077723,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": 0.0028327280504579833,
+          "std": 0.008595883460948209,
+          "n": 5
+        },
+        "no_attack_common_mae": {
+          "mean": 0.48363206795674946,
+          "std": 0.008703866082349332,
+          "n": 5
+        },
+        "attack_common_mae": {
+          "mean": 0.487647137550366,
+          "std": 0.010380474229493281,
+          "n": 5
+        },
+        "delta_common_mae": {
+          "mean": 0.004015069593616483,
+          "std": 0.017560128889290302,
+          "n": 5
+        },
+        "no_attack_native_mae": {
+          "mean": 0.403494717021622,
+          "std": 0.016738772666610953,
+          "n": 5
+        },
+        "attack_native_mae": {
+          "mean": 0.40772015778029946,
+          "std": 0.013629165323370857,
+          "n": 5
+        },
+        "delta_native_mae": {
+          "mean": 0.004225440758677446,
+          "std": 0.0038449330420912867,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "prbtd",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.051161713646598904,
+          "std": 0.031383443987035395,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.06654159182702647,
+          "std": 0.07535002337896873,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": 0.015379878180427565,
+          "std": 0.06890990212319367,
+          "n": 5
+        },
+        "no_attack_common_mae": {
+          "mean": 0.29728812484877876,
+          "std": 0.029434229457123724,
+          "n": 5
+        },
+        "attack_common_mae": {
+          "mean": 0.3153632498241759,
+          "std": 0.03170132652653604,
+          "n": 5
+        },
+        "delta_common_mae": {
+          "mean": 0.01807512497539716,
+          "std": 0.04696326033668648,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "intel_berkeley",
+      "algorithm": "tsadc",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.07202493424466819,
+          "std": 0.007132150558258447,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.07964697281954061,
+          "std": 0.013861795610885378,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": 0.007622038574872416,
+          "std": 0.010826853584066213,
+          "n": 5
+        },
+        "no_attack_common_mae": {
+          "mean": 0.30765964630724396,
+          "std": 0.036831334169776804,
+          "n": 5
+        },
+        "attack_common_mae": {
+          "mean": 0.3201641683966291,
+          "std": 0.04392675946583131,
+          "n": 5
+        },
+        "delta_common_mae": {
+          "mean": 0.012504522089385173,
+          "std": 0.02515205768129276,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "condition_alignment",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.000449782851965122,
+          "std": 3.462361969205049e-06,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.024358022714849575,
+          "std": 0.01216780011841868,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": 0.023908239862884453,
+          "std": 0.01216451476146674,
+          "n": 5
+        },
+        "no_attack_common_mae": {
+          "mean": 0.3749425447658037,
+          "std": 0.0016467325248858149,
+          "n": 5
+        },
+        "attack_common_mae": {
+          "mean": 0.389460630254111,
+          "std": 0.01363058552844033,
+          "n": 5
+        },
+        "delta_common_mae": {
+          "mean": 0.014518085488307308,
+          "std": 0.014831820229656834,
+          "n": 5
+        },
+        "no_attack_native_mae": {
+          "mean": 0.40530739352872197,
+          "std": 0.0050344893344414785,
+          "n": 5
+        },
+        "attack_native_mae": {
+          "mean": 0.4200291122396528,
+          "std": 0.017020670710843528,
+          "n": 5
+        },
+        "delta_native_mae": {
+          "mean": 0.014721718710930786,
+          "std": 0.018670199469837057,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "prbtd",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.034864610704913604,
+          "std": 0.019712356423578988,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.04098118054885512,
+          "std": 0.009935208259687548,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": 0.006116569843941514,
+          "std": 0.013987884502331616,
+          "n": 5
+        },
+        "no_attack_common_mae": {
+          "mean": 0.38701733909267577,
+          "std": 0.0036329267141920643,
+          "n": 5
+        },
+        "attack_common_mae": {
+          "mean": 0.4083271850893557,
+          "std": 0.010158848498249919,
+          "n": 5
+        },
+        "delta_common_mae": {
+          "mean": 0.021309845996679976,
+          "std": 0.01225054540598652,
+          "n": 5
+        }
+      }
+    },
+    {
+      "dataset": "taxibj",
+      "algorithm": "tsadc",
+      "metrics": {
+        "no_attack_false_positive_rate": {
+          "mean": 0.014536195473124524,
+          "std": 0.009663492962436997,
+          "n": 5
+        },
+        "attack_false_positive_rate": {
+          "mean": 0.01436797549393896,
+          "std": 0.011425061418737224,
+          "n": 5
+        },
+        "delta_false_positive_rate": {
+          "mean": -0.00016821997918556563,
+          "std": 0.0023483951223156594,
+          "n": 5
+        },
+        "no_attack_common_mae": {
+          "mean": 0.38446184313013837,
+          "std": 0.008769193728519054,
+          "n": 5
+        },
+        "attack_common_mae": {
+          "mean": 0.40509841133958224,
+          "std": 0.01616108832475379,
+          "n": 5
+        },
+        "delta_common_mae": {
+          "mean": 0.020636568209443863,
+          "std": 0.012320222687929447,
+          "n": 5
+        }
+      }
+    }
+  ]
+}

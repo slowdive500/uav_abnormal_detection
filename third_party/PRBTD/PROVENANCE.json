@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/glab2019/PRBTD",
+  "commit": "078bf86f09fdb17dafe90d305986559f22efd4a8",
+  "fetched_utc": "2026-11-12",
+  "license": "No license file; upstream README states copyright is not disclosed. No relicensing.",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha1": "2c343ca426b7d18fa419d2e732d4b773e8f82b5c",
+      "sha256": "2fc34d65387b69541c88488812bda4556fe741cac9be344e595535cabfb1c54c",
+      "bytes": 1691
+    },
+    {
+      "path": "Code/Method/PRBTD.py",
+      "git_blob_sha1": "6deb1aaede38d905adc104920e9c207ce5fb383d",
+      "sha256": "649b7df5a584945c3fe3ed39e601ba84b6e35574a619e52f04a1197516a2572a",
+      "bytes": 8740
+    },
+    {
+      "path": "Code/Predict/scripts/model/train.py",
+      "git_blob_sha1": "f1728933b5e6668532b4066a7c44ccc4bf942c59",
+      "sha256": "8e5f5998104131010e83c2b2d8fbbfb2d43c0916975e739d676c4adb607ff143",
+      "bytes": 13840
+    },
+    {
+      "path": "Code/Predict/utils/transformer.py",
+      "git_blob_sha1": "d6c2648b435e065230a17d7987e9dd19869d1ce4",
+      "sha256": "d8257b3a3e59c3ec08899b42617a53c0af075f5559926b90de79f3390a34f290",
+      "bytes": 17705
+    }
+  ]
+}

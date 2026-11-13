@@ -1,0 +1,27 @@
+algorithm: prbtd
+seed: 42
+data:
+  path: data/processed/lapse_rate.csv
+split:
+  mode: chronological
+  ratios:
+  - 0.6
+  - 0.15
+  - 0.1
+  - 0.15
+window:
+  window_size: 8
+  min_sources: 1
+  max_gap_seconds: 30
+training:
+  device: cpu
+  threads: 1
+  epochs: 1
+  patience: 1
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0
+calibration:
+  alpha: 0.05
+purpose: REAL FILE I/O INTEGRATION ONLY; single-source windows allowed; not a collaborative
+  benchmark
